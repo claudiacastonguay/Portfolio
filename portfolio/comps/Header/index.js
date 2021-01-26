@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
-
-
+import Router from 'next/router';
 
 
 const Container = styled.div`
@@ -11,6 +10,22 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+`;
+
+const Menu = styled.div`
+    display: ${props=>props.showmenu ? "flex" : "none"};
+    opacity: ${props=>props.showmenu ? "1" : "0"};
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
 `;
 
 const Nav = styled.h4`
@@ -23,8 +38,18 @@ const Nav = styled.h4`
     }
 `;
 
+const MobileNav = styled.h3`
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: 0.25s;
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
 const Navigations = styled.div`
-    display: flex;
+    display: ${props=>props.mobilehidden ? 'none' : 'flex'};
 `;
 
 const HomeNav = styled.div`
@@ -34,32 +59,119 @@ const HomeNav = styled.div`
 `;
 
 const SubCont = styled.div`
-    // display: flex;
-    // justify-content: center;
-    // border: 1px solid red;
-    // width: 100%;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
 `;
 
-const Header = () => {
+const HamMenu = styled.img`
+    height: 40px;
+    display: ${props=>props.show ? 'flex' : 'none'};
+    margin-right: 20px;
+    cursor: pointer;
+`;
+
+const Close = styled.img`
+    display: ${props=>props.showclose ? 'flex' : 'none'};
+    // display: flex;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    z-index: 3;
+    position: absolute;
+    top: 3;
+    right: 0;
+`;
+
+
+function routeHome(){
+    if(true){
+        Router.push("/");
+    }
+}
+
+function routeUIUX(){
+    if(true){
+        Router.push("/ui-ux-design");
+    }
+}
+
+function routeGraphicDesign(){
+    if(true){
+        Router.push("/graphic-design");
+    }
+}
+
+function routeAbout(){
+    if(true){
+        Router.push("/about")
+    }
+}
+
+
+
+const Header = ({show, mobilehidden}) => {
+
+    const [showmenu, setMenu] = useState(false);
+    const [showclose, setClose] = useState(false);
 
     return <Container>
-        {/* <SubCont> */}
+        
 
-    <HomeNav>
-        <Nav>CLAUDIA CASTONGUAY</Nav>
-    </HomeNav>
+        <Close src='close.svg' showmenu={'flex'} showclose={showclose} showmenu={showmenu} onClick={()=>{
+            setClose(!showclose);
+            setMenu(!showmenu);
+        }} />
+
+        <Menu showmenu={showmenu}>
+            <MobileNav onClick={()=>{
+            routeUIUX();
+        }}>UI/UX DESIGN</MobileNav>
+            <MobileNav onClick={()=>{
+            routeGraphicDesign();
+        }}>GRAPHIC DESIGN</MobileNav>
+            <MobileNav onClick={()=>{
+            routeAbout();
+        }}>ABOUT</MobileNav>
+        </Menu>
+
+<SubCont>
+        <HomeNav>
+            <Nav onClick={()=>{
+            routeHome();
+        }}>CLAUDIA CASTONGUAY</Nav>
+        </HomeNav>
+
+
+        {process.browser && window.innerWidth <= 1200 ?
+            <HamMenu src='/menu.svg' show={'flex'} showmenu={showmenu} showclose={showclose} onClick={()=>{
+                setMenu(!showmenu);
+                setClose(!showclose);
+            }} /> : null}
+
+
+    
+   
          
-    <Navigations>
+    {process.browser && window.innerWidth >= 1200 ?
+        <Navigations mobilehidden={mobilehidden}>
 
-        <Nav>UI/UX DESIGN</Nav>
+        <Nav onClick={()=>{
+            routeUIUX();
+        }}>UI/UX DESIGN</Nav>
 
-        <Nav>GRAPHIC DESIGN</Nav>
+        <Nav onClick={()=>{
+            routeGraphicDesign();
+        }}>GRAPHIC DESIGN</Nav>
 
-        <Nav>ABOUT</Nav>
+        <Nav onClick={()=>{
+            routeAbout();
+        }}>ABOUT</Nav>
 
-    </Navigations>
+    </Navigations> : null}
 
-    {/* </SubCont> */}
+    </SubCont>
 
     </Container>
 
@@ -69,7 +181,7 @@ const Header = () => {
 
 
 Header.defaultProps = {
-
+    show: 'none'
 }
 
 
