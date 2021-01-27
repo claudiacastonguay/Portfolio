@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Header from '../comps/Header';
 import Button from '../comps/Button';
 import Router from 'next/router';
+import Footer from '../comps/Footer';
 
 function GoToUIUX(){
     Router.push("/ui-ux-design");
@@ -93,6 +94,11 @@ export default function Home () {
     </div>
 </div>
 
+</div>
+
+
+<div>
+    <Footer />
 </div>
 
 
