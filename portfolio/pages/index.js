@@ -22,6 +22,8 @@ export default function Home () {
 
         {/* HOME TITLE & IMAGE SECTION */}
 
+        <div className='topmargin'></div>
+
        <div className='homedesktopflex'>
 
         <div className="hometitle">

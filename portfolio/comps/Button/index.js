@@ -6,14 +6,17 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     border: 5px solid #15C4B6;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 20px 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
     color: #15C4B6;
-    max-width: 150px;
+    // max-width: 150px;
+    // max-width: 210px;
+    display: inline-flex;
     :hover{
         color:white;
         background-color: #15C4B6;

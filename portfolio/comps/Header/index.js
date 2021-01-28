@@ -4,7 +4,7 @@ import Router from 'next/router';
 
 
 const Container = styled.div`
-    width: 100vw;
+    // width: 100vw;
     height: 80px;
     border-bottom: 1px solid #d4d4d4;
     display: flex;
