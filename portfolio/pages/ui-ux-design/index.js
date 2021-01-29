@@ -39,15 +39,15 @@ export default function UIUXDesign () {
 
         {/* INTRO */}
 
-        <div className='titlecont'>
+        <div className='uititlecont'>
             
             <div className='subtitlecont'>
                 <h1 className='uiuxtitle'>UI/UX DESIGN</h1>
                 <h5 className='uiuxsubtitle'>Below are my biggest projects of web applications I've helped design and develop with different teams.</h5>
             </div>
-            
+
                 <div className='downarrowcont2'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
+                    <img className='downarrow' src='/whitedownarrow.svg'></img>
                 </div>
             
         </div>

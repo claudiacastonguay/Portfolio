@@ -61,7 +61,7 @@ export default function Home () {
     <div className='graphicdesignhome'>
 
         <div className='uihomeimgcont'>
-            <img className='uihomeimg' src='/placeholder.png'></img>
+            <img className='uihomeimg' src='/uiprojects.png'></img>
         </div>
 
         <div className='graphichometext'>
@@ -82,7 +82,7 @@ export default function Home () {
 <div className='graphicdesignhome'>
     
     <div className='uihomeimgcont'>
-        <img className='uihomeimg' src='/placeholder.png'></img>
+        <img className='uihomeimg' src='/graphicdesignprojects.png'></img>
     </div>
 
     <div className='graphichometext'>

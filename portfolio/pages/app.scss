@@ -78,16 +78,9 @@ p{
 .desktophomeimgcont{
     display: flex;
     justify-content: flex-end;
-    // margin-right: 30px;
     margin-top: 40px;
     margin: 10px;
 }
-
-// .homedesktopflex{
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-around;
-// }
 
 @media (min-width: 480px) {
     .homedesktopflex {
@@ -123,6 +116,7 @@ p{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-right: 30px;
   }
 
   .uihomeimg{
@@ -168,9 +162,9 @@ p{
       margin: 0px;
   }
 
-  .titlecont{
+  .uititlecont{
       width: 100%;
-      background-image: url('/placeholder.png');
+      background-image: url('/uiuxbanner.png');
       background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -180,6 +174,18 @@ p{
       align-items: center;
   }
 
+  .titlecont{
+    width: 100%;
+    background-image: url('/graphicdesignbanner.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
   .subtitlecont{
       margin-top: 6%;
       text-align: center;
@@ -187,11 +193,13 @@ p{
 
   .uiuxtitle{
       font-size: 11vw;
+      color: white;
   }
 
   .uiuxsubtitle{
       margin-top: -70px;
       font-size: 20pt;
+      color: white;
   }
 
   @media (max-width: 600px) {
@@ -286,6 +294,66 @@ p{
 
 //GRAPHIC DESIGN PAGE
 
+@media (max-width: 1512px) {
+    .graphicproject{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .subgraphicproject{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        width: 88% !important;
+    }
+    .graphicprojecttext{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+    .projectimage{
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .gamecubecont{
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .leftmargin{
+        margin:0 !important;
+        width: 100% !important;
+    }
+    .paintingtext{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+    .graphictitle{
+        font-size: 35pt;
+    }
+}
+
+@media (min-width: 1513px){
+    .projectimage{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        width: 40% !important;
+    }
+    .graphicprojecttext{
+        width: 100% !important;
+        max-width: 800px !important;
+        margin-left: 90px !important;
+    }
+    .paintingtext{
+        margin-left: 90px !important;
+    }
+}
+
 .projectimage{
     display: flex;
     justify-content: center;
@@ -303,8 +371,6 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    // margin-left: 50px;
-    // margin-right: 50px;
 }
 
 .graphicprojecttext{
@@ -324,7 +390,7 @@ p{
 
 .gamecubecont{
     width: 100%;
-    max-width: 1000px;
+    max-width: 800px;
     display: flex;
     justify-content: center;
 }
@@ -342,4 +408,12 @@ p{
 .paintingtext{
     margin-top: 160px;
     width: 40%;
+    display: flex;
+    flex-direction: column !important;
+}
+
+.leftmargin{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 120px;
 }
