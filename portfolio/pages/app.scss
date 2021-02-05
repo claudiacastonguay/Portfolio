@@ -101,6 +101,7 @@ p{
 
   .downarrow{
       width: 60px;
+      cursor: pointer;
   }
 
   .downarrowcont{
@@ -162,6 +163,16 @@ p{
       margin: 0px;
   }
 
+  html{
+      scroll-behavior: smooth;
+      
+  }
+
+  .scroll{
+    transition-delay: 1000ms;
+    transition-timing-function: ease-out;
+  }
+
   .uititlecont{
       width: 100%;
       background-image: url('/uiuxbanner.png');
@@ -172,6 +183,7 @@ p{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      height: auto;
   }
 
   .titlecont{
@@ -236,7 +248,25 @@ p{
     margin: 90px 0px 40px 0px;
 }
 
-.earthherocont{
+#earthherocont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+#craigslistcont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+#ddcont{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -301,6 +331,12 @@ p{
         align-items: center !important;
         justify-content: center !important;
     }
+    .graphicproject{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
     .subgraphicproject{
         display: flex;
         flex-direction: column;
@@ -311,6 +347,10 @@ p{
         width: 100% !important;
         margin-top: 30px !important;
     }
+    #audiofina{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
     .projectimage{
         display: flex;
         justify-content: center;
@@ -318,7 +358,34 @@ p{
         width: 100%;
         margin-left: 0 !important;
     }
+    #audiofina{
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    #painting{
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    #albumcover{
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
     .gamecubecont{
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #vector{
         max-width: 500px;
         display: flex;
         justify-content: center;
@@ -344,7 +411,30 @@ p{
         margin-left: 90px;
         width: 40% !important;
     }
+    #audiofina{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        width: 40% !important;
+    }
+    #painting{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        width: 40% !important;
+    }
+    #albumcover{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        width: 40% !important;
+    }
     .graphicprojecttext{
+        width: 100% !important;
+        max-width: 800px !important;
+        margin-left: 90px !important;
+    }
+    #audiofina{
         width: 100% !important;
         max-width: 800px !important;
         margin-left: 90px !important;
@@ -355,6 +445,27 @@ p{
 }
 
 .projectimage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 90px;
+}
+#audiofina{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 90px;
+}
+#painting{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 90px;
+}
+#albumcover{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -378,6 +489,11 @@ p{
     width: 40%;
 }
 
+#audiofina{
+    margin-top: 120px;
+    width: 40%;
+}
+
 .subgraphicproject{
     width: 85%;
     display: flex;
@@ -389,6 +505,13 @@ p{
 }
 
 .gamecubecont{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+#vector{
     width: 100%;
     max-width: 800px;
     display: flex;

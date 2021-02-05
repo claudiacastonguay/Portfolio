@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 
-const Container = styled.div`
+const Container = styled.a`
     border: 5px solid #15C4B6;
     padding: 0px 20px 0px 20px;
     display: flex;
@@ -14,6 +14,7 @@ const Container = styled.div`
     transition: 0.3s;
     text-align: center;
     color: #15C4B6;
+    text-decoration: none;
     // max-width: 150px;
     // max-width: 210px;
     display: inline-flex;
@@ -28,9 +29,9 @@ const Text = styled.h3`
 `;
 
 
-const Button = ({text, onClick}) => {
+const Button = ({text, onClick, externallink}) => {
 
-    return <Container onClick={onClick}>
+    return <Container onClick={onClick} target='_blank' href={externallink}>
          <Text>{text}</Text>
     </Container>
 

@@ -3,6 +3,7 @@ import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import Router from 'next/router';
 import Footer from '../../comps/Footer';
+import NextLink from 'next/link';
 
 
 
@@ -11,7 +12,7 @@ export default function GraphicDesign(){
 
     return <div>
         
-    <Header />
+    <Header graphiccolor="#15C4B6"/>
 
 
     {/* INTRO */}
@@ -23,10 +24,11 @@ export default function GraphicDesign(){
                 <h5 className='uiuxsubtitle'>Here is some of my best graphic design work using Adobe Photoshop and Illustrator.</h5>
             </div>
             
+            <NextLink className='scroll' href="/graphic-design#audiofina">
                 <div className='downarrowcont2'>
                     <img className='downarrow' src='/whitedownarrow.svg'></img>
                 </div>
-            
+            </NextLink>
         </div>
 
 
@@ -36,7 +38,7 @@ export default function GraphicDesign(){
 
     {/* DESKTOP */}
 
-    {process.browser && window.innerWidth >= 1512 ? <div className='graphicproject'>
+    {process.browser && window.innerWidth >= 1512 ? <div id='graphicproject'>
         <div className='subgraphicproject'>
 
             <div className='graphicprojecttext'>
@@ -50,7 +52,7 @@ export default function GraphicDesign(){
             </div>
 
 
-            <div className='projectimage'>
+            <div id='audiofina'>
                 <img className='logos' src='/musiclogos.png'></img>
             </div>
 
@@ -64,7 +66,7 @@ export default function GraphicDesign(){
         <div className='subgraphicproject'>
 
 
-    <div className='projectimage'>
+    <div id='audiofina'>
             <img className='logos' src='/musiclogos.png'></img>
     </div>
 
@@ -88,11 +90,11 @@ export default function GraphicDesign(){
 
 
 
-
+<NextLink className='scroll' href="/graphic-design#vector">
     <div className='downarrowcont'>
                     <img className='downarrow' src='/downarrow.svg'></img>
         </div>
-
+</NextLink>
 
 
 
@@ -105,7 +107,7 @@ export default function GraphicDesign(){
         <div className='graphicproject'>
             <div className='subgraphicproject'>
 
-        <div className='gamecubecont'>
+        <div id='vector'>
                 <img className='gamecube' src='/realisticgamecube.png'></img>
             </div>
 
@@ -132,10 +134,11 @@ export default function GraphicDesign(){
 
 
 
-
-    <div className='downarrowcont'>
+    <NextLink className='scroll' href="/graphic-design#painting">
+            <div className='downarrowcont'>
                     <img className='downarrow' src='/downarrow.svg'></img>
-        </div>
+            </div>
+    </NextLink>
 
 
 
@@ -160,7 +163,7 @@ export default function GraphicDesign(){
             </div>
 
 
-            <div className='projectimage'>
+            <div id='painting'>
                 <img className='logos' src='/realisticpainting.png'></img>
             </div>
 
@@ -175,7 +178,7 @@ export default function GraphicDesign(){
 
 
 
-        <div className='projectimage'>
+        <div id='painting'>
                 <img className='logos' src='/realisticpainting.png'></img>
             </div>
 
@@ -199,11 +202,11 @@ export default function GraphicDesign(){
 
 
 
-
+    <NextLink className='scroll' href="/graphic-design#albumcover">
     <div className='downarrowcont'>
                     <img className='downarrow' src='/downarrow.svg'></img>
         </div>
-
+    </NextLink>
 
 
 
@@ -217,7 +220,7 @@ export default function GraphicDesign(){
         <div className='subgraphicproject'>
 
 
-        <div className='projectimage'>
+        <div id='albumcover'>
                 <img className='logos' src='/mockalbumcover.png'></img>
             </div>
 

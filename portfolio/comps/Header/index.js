@@ -28,7 +28,40 @@ const Menu = styled.div`
     transition: 0.4s;
 `;
 
-const Nav = styled.h4`
+const NavUI = styled.h4`
+    margin-right: 60px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: ${props=>props.uicolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const NavGraphic = styled.h4`
+    margin-right: 60px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: ${props=>props.graphiccolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const NavAbout = styled.h4`
+    margin-right: 60px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: ${props=>props.aboutcolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const NavHome = styled.h4`
     margin-right: 60px;
     cursor: pointer;
     transition: 0.25s;
@@ -38,10 +71,44 @@ const Nav = styled.h4`
     }
 `;
 
-const MobileNav = styled.h3`
+const MobileNavUI = styled.h3`
     cursor: pointer;
     margin-bottom: 60px;
     transition: 0.25s;
+    color: ${props=>props.uicolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const MobileNavGraphic = styled.h3`
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: 0.25s;
+    color: ${props=>props.graphiccolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const MobileNavAbout = styled.h3`
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: 0.25s;
+    color: ${props=>props.aboutcolor ? "#15C4B6" : "black"};
+
+    :hover{
+        color: #15C4B6;
+    }
+`;
+
+const MobileNavHome = styled.h3`
+    cursor: pointer;
+    margin-bottom: 60px;
+    transition: 0.25s;
+    color: ${props=>props.homecolor ? "#15C4B6" : "black"};
 
     :hover{
         color: #15C4B6;
@@ -111,7 +178,9 @@ function routeAbout(){
 
 
 
-const Header = ({show, mobilehidden}) => {
+
+
+const Header = ({show, mobilehidden, uicolor, graphiccolor, aboutcolor, homecolor}) => {
 
     const [showmenu, setMenu] = useState(false);
     const [showclose, setClose] = useState(false);
@@ -125,22 +194,25 @@ const Header = ({show, mobilehidden}) => {
         }} />
 
         <Menu showmenu={showmenu}>
-            <MobileNav onClick={()=>{
+        <MobileNavHome homecolor={homecolor} onClick={()=>{
+            routeHome();
+        }}>HOME</MobileNavHome>
+            <MobileNavUI uicolor={uicolor} onClick={()=>{
             routeUIUX();
-        }}>UI/UX DESIGN</MobileNav>
-            <MobileNav onClick={()=>{
+        }}>UI/UX DESIGN</MobileNavUI>
+            <MobileNavGraphic graphiccolor={graphiccolor} onClick={()=>{
             routeGraphicDesign();
-        }}>GRAPHIC DESIGN</MobileNav>
-            <MobileNav onClick={()=>{
+        }}>GRAPHIC DESIGN</MobileNavGraphic>
+            <MobileNavAbout aboutcolor={aboutcolor} onClick={()=>{
             routeAbout();
-        }}>ABOUT</MobileNav>
+        }}>ABOUT</MobileNavAbout>
         </Menu>
 
 <SubCont>
         <HomeNav>
-            <Nav onClick={()=>{
+            <NavHome onClick={()=>{
             routeHome();
-        }}>CLAUDIA CASTONGUAY</Nav>
+        }}>CLAUDIA CASTONGUAY</NavHome>
         </HomeNav>
 
 
@@ -157,17 +229,17 @@ const Header = ({show, mobilehidden}) => {
     {process.browser && window.innerWidth >= 1200 ?
         <Navigations mobilehidden={mobilehidden}>
 
-        <Nav onClick={()=>{
+        <NavUI uicolor={uicolor} onClick={()=>{
             routeUIUX();
-        }}>UI/UX DESIGN</Nav>
+        }}>UI/UX DESIGN</NavUI>
 
-        <Nav onClick={()=>{
+        <NavGraphic graphiccolor={graphiccolor} onClick={()=>{
             routeGraphicDesign();
-        }}>GRAPHIC DESIGN</Nav>
+        }}>GRAPHIC DESIGN</NavGraphic>
 
-        <Nav onClick={()=>{
+        <NavAbout aboutcolor={aboutcolor} onClick={()=>{
             routeAbout();
-        }}>ABOUT</Nav>
+        }}>ABOUT</NavAbout>
 
     </Navigations> : null}
 
@@ -181,7 +253,8 @@ const Header = ({show, mobilehidden}) => {
 
 
 Header.defaultProps = {
-    show: 'none'
+    show: 'none',
+    textcolor: "black"
 }
 
 
