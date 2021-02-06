@@ -114,8 +114,37 @@ export default function UIUXDesign () {
     </div>
 
         <div className='flexearthhero'>
-            <div className='earthheroimg'>
-                <img className='EHimg' src='/placeholder.png'></img>
+            <div className='craigslistgallery'>
+                {/* <img className='EHimg' src='/placeholder.png'></img> */}
+                <Slider 
+                    speed={1000}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={false}
+                    dots={true}
+                    >
+
+                    <img src='/craigslistgallery.png' />
+                    <img src='/craigslistgallery2.png' />
+                    <img src='/craigslistgallery3.png' />
+                    <img src='/craigslistgallery4.png' />
+                </Slider>
+            </div>
+        </div>
+
+
+        <div className='downloadsflex'>
+            <div className='uidownloads'>
+                
+                    <h4>PDF's of the Craigslist Redesign style guide and user research documentation are available here:</h4>
+                
+
+                <div className="flexbuttons">
+                    
+                    <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1cfvHDrGYT3pkHCzYiLulWMQ53h4ApzFX/view?usp=sharing"}/>
+                    <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/1qNdOuBEtLCiNvrgJ5E3Y7-7srY4R8dLD/view?usp=sharing"}/>
+
+                </div>
             </div>
         </div>
 
@@ -128,7 +157,7 @@ export default function UIUXDesign () {
         <h2 className='uisubtitle'>ROLES</h2>
         <p className='uiprojecttext'>This was created with a team of four members, including myself. The team consisted of one designer/front-end developer, one front-end developer, a full-stack developer for the back-end, and one designer, myself. I was responsible for the majority of the design of this web application. I created about 90% of the high-fidelity mockups which included both mobile and desktop versions.</p>
 
-        <h2 className='uisubtitle'>PROTOTYPE</h2>
+        <h2 className='uisubtitle'>PROTOTYPES</h2>
         <p className='uiprojecttext'>The prototypes of this app are available for you to check out below for desktop and mobile.</p>
 
 

@@ -6,7 +6,6 @@ import Footer from '../comps/Footer';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SlideGallery from '../comps/SlideGallery';
 
 function GoToUIUX(){
     Router.push("/ui-ux-design");
@@ -21,8 +20,6 @@ export default function Home () {
     return <div>
 
         <Header homecolor={"#15C4B6"}/>
-
-        <SlideGallery />
 
 
 
