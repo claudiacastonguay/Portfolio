@@ -105,7 +105,18 @@ const Socials2 = styled.div`
     max-width: 285px;
 `;
 
+const Copyright = styled.p`
+    color: lightgray;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 11pt;
+`;
 
+const Center = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+`;
 
 
 const Footer = () => {
@@ -163,7 +174,9 @@ const Footer = () => {
             
          </MainText> : null}
 
-
+            <Center>
+                <Copyright>Copyright © 2021 Claudia Castonguay - All Rights Reserved</Copyright>
+            </Center>
 
     </Container>
 }
