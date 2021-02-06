@@ -69,7 +69,7 @@ export default function Home () {
 
         <div className='graphichometext'>
         <h3 className='homesectiontitle'>UI/UX Design Projects</h3>
-        <p className='homesectiondesc'>Description for this section here...</p>
+        <p className='homesectiondesc'>See my biggest UI/UX web-application projects that I helped design and develop.</p>
 
         <div className='sectionhomebutton'>
             <Button text='SEE PROJECTS' onClick={()=>{
@@ -90,7 +90,7 @@ export default function Home () {
 
     <div className='graphichometext'>
     <h3 className='homesectiontitle'>Graphic Design Projects</h3>
-    <p className='homesectiondesc'>Description for this section here...</p>
+    <p className='homesectiondesc'>See my best graphic design work I created using Adobe Photoshop and Illustrator.</p>
 
     <div className='sectionhomebutton'>
         <Button text='SEE PROJECTS' onClick={()=>{

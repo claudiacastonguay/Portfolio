@@ -65,7 +65,7 @@ export default function UIUXDesign () {
         <div className='downloadsflex'>
             <div className='uidownloads'>
                 
-                    <h4>PDF's of Earth Hero's style guide and user research documentation are available here:</h4>
+                    <h4>The PDFs of Earth Hero's style guide and user research documentation are available here:</h4>
                 
 
                 <div className="flexbuttons">
@@ -136,7 +136,7 @@ export default function UIUXDesign () {
         <div className='downloadsflex'>
             <div className='uidownloads'>
                 
-                    <h4>PDF's of the Craigslist Redesign style guide and user research documentation are available here:</h4>
+                    <h4>The PDFs of the Craigslist Redesign style guide and user research documentation are available here:</h4>
                 
 
                 <div className="flexbuttons">
@@ -152,7 +152,8 @@ export default function UIUXDesign () {
     <div className='uiprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
-        <p className='uiprojecttext'>The purpose of this project was to redesign the entire UI/UX of Craigslist.</p>
+        <p className='uiprojecttext'>Most of us have visited <a target='_blank' href='https://craigslist.org'>Craigslist.com</a>, whether it be to buy something cheap, check out discussion forums, or sell something for a bit of extra cash in the pocket. However, you may have noticed that Craigslist's website looks a little bit... messy? Perhaps, cluttered and old-looking too? Well, as a UI/UX designer student, I was assigned to give Craigslist a whole new look. The project required that we completely redesign Craigslist and give it an entirely new user interface and a much better user experience.</p>
+        <p className='uiprojecttext'>We noticed that the orignal Craigslist lacks a lot of white space, the links and text are all cluttered together, and the interface is not as intuitive as it could be. With our redesign, we made use of lots of white space, more visuals, more color, and bigger font. For a better UX, we gave the new Craigslist some better functionalities. For instance, we added a clear and easy-to-use filter and some drop-downs from the header menu.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
         <p className='uiprojecttext'>This was created with a team of four members, including myself. The team consisted of one designer/front-end developer, one front-end developer, a full-stack developer for the back-end, and one designer, myself. I was responsible for the majority of the design of this web application. I created about 90% of the high-fidelity mockups which included both mobile and desktop versions.</p>
@@ -196,16 +197,46 @@ export default function UIUXDesign () {
     </div>
 
         <div className='flexearthhero'>
-            <div className='earthheroimg'>
-                <img className='EHimg' src='/placeholder.png'></img>
+            <div className="ddgallery">
+                {/* <img className='EHimg' src='/placeholder.png'></img> */}
+                <Slider 
+                    speed={1000}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={false}
+                    dots={true}
+                    >
+
+                    <img src='/ddgallery.png' />
+                    <img src='/ddgallery2.png' />
+                    <img src='/ddgallery3.png' />
+                </Slider>
             </div>
         </div>
+
+
+        <div className='downloadsflex'>
+            <div className='uidownloads'>
+                
+                    <h4>The PDFs of Dairy Delight's style guide and wireframes are available here:</h4>
+                
+
+                <div className="flexbuttons">
+                    
+                    <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1GXxWpWGI94Mkb2Iux1WnP2hIhy1nUsdc/view?usp=sharing"}/>
+                    <Button text="WIREFRAMES" externallink={"https://drive.google.com/file/d/1Lyjo9UaNr1XzoouNLnfp_UfGkVwZRLRx/view?usp=sharing"}/>
+
+                </div>
+            </div>
+        </div>
+
 
 
     <div className='uiprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
-        <p className='uiprojecttext'>Dairy Delight is a faux small ice cream business that sells ice cream, milkshakes, and cakes made with natural ingredients. They also offer an online delivery service on their website.</p>
+        <p className='uiprojecttext'>Dairy Delight is a faux small ice cream business that sells ice cream, milkshakes, and cakes made with natural ingredients. They also offer an online delivery service providing tubs of ice cream on their website.</p>
+        <p className='uiprojecttext'>The purpose of this project was to come up with any type of small business and give it branding and a website. This site was not developed, it was only made into a high-fidelity mockup.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
         <p className='uiprojecttext'>This project was completed by a team of two members, including myself. Since this project was solely design-focused, the design was split evenly between my team member and I. I was responsible for designing the Home page, the Menu page, and the Ice Cream Menu page. I also created the header and footer for this mockup.</p>

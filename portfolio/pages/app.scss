@@ -41,6 +41,14 @@ p{
     font-weight: 300;
 }
 
+a{
+    color: #016897;
+    transition: 0.2s;
+}
+a:hover{
+    color: #31c5a0;
+}
+
 //HOME PAGE
 
 .topmargin{
@@ -132,6 +140,7 @@ p{
   .homesectiondesc{
       font-size: 15pt;
       margin-left: 15px;
+      max-width: 350px;
   }
 
   .sectionhomebutton{
@@ -239,6 +248,9 @@ p{
       .uibuttonflex{
           flex-direction: column;
       }
+      .ddgallery{
+          width: 90% !important;
+      }
   }
 
   .downarrowcont2{
@@ -317,6 +329,10 @@ p{
 
 .EHimg{
     width: 100%;
+}
+
+.ddgallery{
+    width: 80%;
 }
 
 .flexearthhero{
