@@ -5,6 +5,10 @@ import Router from 'next/router';
 import Footer from '../../comps/Footer';
 import NextLink from 'next/link';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+
 
 
 export default function GraphicDesign(){
@@ -160,11 +164,28 @@ export default function GraphicDesign(){
 
                     <p className='graphictext'>This was the final product that was created in Adobe Photoshop. The painting involved using several brush settings and techniques. In addition, it involved using various effects and textures to make it appear as realistic as possible.</p>
 
+                    <p className='graphictext'>Scroll through the gallery to see the original reference image, as well as the different stages in the process of making the painting.</p>
+
             </div>
 
 
             <div id='painting'>
                 <img className='logos' src='/realisticpainting.png'></img>
+                {/* <Slider 
+                    speed={500}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={true}
+                    dots={true}
+                    >
+
+                    <img src='/realisticpainting.png' />
+                    <img src='/originalpainting.png' />
+                    <img src='/paintingv1.png' />
+                    <img src='/paintingv2.png' />
+                    <img src='/paintingv3.png' />
+                    
+                </Slider> */}
             </div>
 
         </div>
@@ -180,6 +201,20 @@ export default function GraphicDesign(){
 
         <div id='painting'>
                 <img className='logos' src='/realisticpainting.png'></img>
+                {/* <Slider 
+                    speed={500}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={true}
+                    dots={true}
+                    >
+
+                    <img src='/realisticpainting.png' />
+                    <img src='/paintingv1.png' />
+                    <img src='/paintingv2.png' />
+                    <img src='/paintingv3.png' />
+                    <img src='/originalpainting.png' />
+                </Slider> */}
             </div>
 
 
@@ -190,6 +225,8 @@ export default function GraphicDesign(){
                     <p className='graphictext'>The purpose of this project was to practice and understand Adobe Photoshop brushes and techniques. I was required to paint a portrait of someone in black and white as realistic and similar to a reference image as possible.</p>
 
                     <p className='graphictext'>This was the final product that was created in Adobe Photoshop. The painting involved using several brush settings and techniques. In addition, it involved using various effects and textures to make it appear as realistic as possible.</p>
+
+                    <p className='graphictext'>Scroll through the gallery to see the original reference image, as well as the different stages in the process of making the painting.</p>
 
             </div>
 
@@ -221,7 +258,22 @@ export default function GraphicDesign(){
 
 
         <div id='albumcover'>
-                <img className='logos' src='/mockalbumcover.png'></img>
+                {/* <img className='logos' src='/mockalbumcover.png'></img> */}
+                <Slider 
+                    speed={500}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={true}
+                    dots={true}
+                    >
+
+                    <img src='/mockalbumcover.png' />
+                    <img src='/albumv1.png' />
+                    <img src='/albumv2.png' />
+                    <img src='/albumv3.png' />
+                    <img src='/albumv4.png' />
+                    <img src='/albumv5.png' />
+                </Slider>
             </div>
 
 
@@ -232,6 +284,8 @@ export default function GraphicDesign(){
                     <p className='graphictext'>For this project, I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
 
                     <p className='graphictext'>I put together this mock album cover using a couple of royalty-free images, some vector shapes, lots of different brushes, and lots of effects.</p>
+
+                    <p className='graphictext'>Scroll through the gallery to see the creation process of this project.</p>
 
             </div>
 
