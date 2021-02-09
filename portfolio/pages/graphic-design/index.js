@@ -104,6 +104,8 @@ export default function GraphicDesign(){
 
 
 
+
+
         {/* REALISTIC VECTOR DRAWING */}
 
     
@@ -112,7 +114,20 @@ export default function GraphicDesign(){
             <div className='subgraphicproject'>
 
         <div id='vector'>
-                <img className='gamecube' src='/realisticgamecube.png'></img>
+                {/* <img className='gamecube' src='/realisticgamecube.png'></img> */}
+                <Slider 
+                    speed={500}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={true}
+                    dots={true}
+                    >
+
+                    <img src='/realisticgamecube.png' />
+                    <img src='/originalvector.png' />
+                    <img src='/vector1.png' />
+                    <img src='/vector2.png' />
+                </Slider>
             </div>
 
 
@@ -123,6 +138,8 @@ export default function GraphicDesign(){
                     <p className='graphictext'>For this project, I was assigned to create a vector drawing in Adobe Illustrator as realistic as possible to a reference image of my choice.</p>
 
                     <p className='graphictext'>This is the final result of my GameCube controller vector drawing. I used various effects, textures, and shapes to make it look as realistic as I could.</p>
+
+                    <p className='graphictext'>Scroll through the gallery to see a couple of the stages of the process of creating this vector graphic. The second image is the original reference image.</p>
 
             </div>
 
@@ -170,8 +187,8 @@ export default function GraphicDesign(){
 
 
             <div id='painting'>
-                <img className='logos' src='/realisticpainting.png'></img>
-                {/* <Slider 
+                {/* <img className='logos' src='/realisticpainting.png'></img> */}
+                <Slider 
                     speed={500}
                     slidesToScroll={1}
                     slidestoShow={1}
@@ -185,7 +202,7 @@ export default function GraphicDesign(){
                     <img src='/paintingv2.png' />
                     <img src='/paintingv3.png' />
                     
-                </Slider> */}
+                </Slider>
             </div>
 
         </div>
@@ -201,20 +218,6 @@ export default function GraphicDesign(){
 
         <div id='painting'>
                 <img className='logos' src='/realisticpainting.png'></img>
-                {/* <Slider 
-                    speed={500}
-                    slidesToScroll={1}
-                    slidestoShow={1}
-                    infinite={true}
-                    dots={true}
-                    >
-
-                    <img src='/realisticpainting.png' />
-                    <img src='/paintingv1.png' />
-                    <img src='/paintingv2.png' />
-                    <img src='/paintingv3.png' />
-                    <img src='/originalpainting.png' />
-                </Slider> */}
             </div>
 
 
@@ -226,7 +229,6 @@ export default function GraphicDesign(){
 
                     <p className='graphictext'>This was the final product that was created in Adobe Photoshop. The painting involved using several brush settings and techniques. In addition, it involved using various effects and textures to make it appear as realistic as possible.</p>
 
-                    <p className='graphictext'>Scroll through the gallery to see the original reference image, as well as the different stages in the process of making the painting.</p>
 
             </div>
 
@@ -251,9 +253,9 @@ export default function GraphicDesign(){
 
     {/* MOCK ALBUM COVER */}
 
-    
+    {/* DESKTOP */}
 
-    <div className='graphicproject'>
+    {process.browser && window.innerWidth >= 1512 ? <div className='graphicproject'>
         <div className='subgraphicproject'>
 
 
@@ -292,10 +294,42 @@ export default function GraphicDesign(){
 
             
 
-        </div>
+        </div> 
 
-    </div>
 
+
+    </div> : 
+
+    //MOBILE
+
+    <div className='graphicproject'>
+        <div className='subgraphicproject'>
+
+
+        <div id='albumcover'>
+                <img className='logos' src='/mockalbumcover.png'></img>
+            </div>
+
+
+            <div className='leftmargin'>
+
+                    <h1 className='graphictitle'>MOCK ALBUM COVER</h1>
+
+                    <p className='graphictext'>For this project, I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
+
+                    <p className='graphictext'>I put together this mock album cover using a couple of royalty-free images, some vector shapes, lots of different brushes, and lots of effects.</p>
+
+
+            </div>
+
+
+            
+
+        </div> 
+
+
+
+    </div>}
 
 
     <div>

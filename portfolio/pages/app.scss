@@ -375,12 +375,6 @@ a:hover{
         align-items: center !important;
         justify-content: center !important;
     }
-    .graphicproject{
-        display: flex;
-        flex-direction: column;
-        align-items: center !important;
-        justify-content: center !important;
-    }
     .subgraphicproject{
         display: flex;
         flex-direction: column;
@@ -418,21 +412,22 @@ a:hover{
     }
     #albumcover{
         display: flex;
-        justify-content: center;
-        align-items: center !important;
+        justify-content: center !important;
         width: 100%;
+        align-items: center !important;
         margin-left: 0 !important;
     }
-    .gamecubecont{
-        max-width: 500px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+    // .gamecubecont{
+    //     max-width: 500px;
+    //     display: flex;
+    //     justify-content: center;
+    //     width: 100%;
+    // }
     #vector{
-        max-width: 500px;
+        // max-width: 500px;
         display: flex;
         justify-content: center;
+        margin-left: 0 !important;
         width: 100%;
     }
     .leftmargin{
@@ -462,6 +457,12 @@ a:hover{
         width: 40% !important;
     }
     #painting{
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        width: 40% !important;
+    }
+    #vector{
         display: flex;
         flex-direction: column;
         margin-left: 90px;
