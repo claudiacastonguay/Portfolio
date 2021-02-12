@@ -20,6 +20,8 @@ const SubTitle = styled.h5`
 
 const MainText = styled.div`
     padding: 10%;
+    display: flex;
+    flex-direction: column;
 `;
 
 const Location = styled.p`
@@ -174,9 +176,9 @@ const Footer = () => {
             
          </MainText> : null}
 
-            <Center>
+            {/* <Center>
                 <Copyright>Copyright © 2021 Claudia Castonguay - All Rights Reserved</Copyright>
-            </Center>
+            </Center> */}
 
     </Container>
 }

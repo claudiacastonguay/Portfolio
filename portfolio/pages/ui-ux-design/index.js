@@ -9,6 +9,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
+import Head from 'next/head';
+
+
+
+function ToTop(){
+    document.documentElement.scrollTop = 0;
+}
 
 
 
@@ -17,6 +24,11 @@ export default function UIUXDesign () {
     return <div className='uiux'>
 
     <Header uicolor={"#15C4B6"}/>
+
+    <Head>
+        <link rel="shortcut icon" href="/favicon2.svg" />
+        <title>Claudia Castonguay - Digital Design</title>
+    </Head>
 
 
         {/* INTRO */}
@@ -59,7 +71,6 @@ export default function UIUXDesign () {
                     <img src='/earthherogallery3.png' />
                 </Slider>
             </div>
-
         </div>
 
         <div className='downloadsflex'>
@@ -69,9 +80,13 @@ export default function UIUXDesign () {
                 
 
                 <div className="flexbuttons">
-                    
-                    <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1tC4xmnL_hHuwGkZ-MN74B2kE7ABWEeR9/view?usp=sharing"}/>
-                    <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/10GdGj15OcSi283O86dAk0oBJm9tpzY3M/view?usp=sharing"}/>
+
+                    <div id="mobilebutton">
+                        <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1tC4xmnL_hHuwGkZ-MN74B2kE7ABWEeR9/view?usp=sharing"}/>
+                     </div>
+                     <div>
+                        <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/10GdGj15OcSi283O86dAk0oBJm9tpzY3M/view?usp=sharing"}/>
+                    </div>
 
                 </div>
             </div>
@@ -141,8 +156,12 @@ export default function UIUXDesign () {
 
                 <div className="flexbuttons">
                     
+                <div id="mobilebutton">
                     <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1cfvHDrGYT3pkHCzYiLulWMQ53h4ApzFX/view?usp=sharing"}/>
-                    <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/1qNdOuBEtLCiNvrgJ5E3Y7-7srY4R8dLD/view?usp=sharing"}/>
+                    </div>
+                    <div>
+                        <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/1qNdOuBEtLCiNvrgJ5E3Y7-7srY4R8dLD/view?usp=sharing"}/>
+                    </div>
 
                 </div>
             </div>
@@ -223,8 +242,12 @@ export default function UIUXDesign () {
 
                 <div className="flexbuttons">
                     
-                    <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1GXxWpWGI94Mkb2Iux1WnP2hIhy1nUsdc/view?usp=sharing"}/>
-                    <Button text="WIREFRAMES" externallink={"https://drive.google.com/file/d/1Lyjo9UaNr1XzoouNLnfp_UfGkVwZRLRx/view?usp=sharing"}/>
+                    <div id='mobilebutton'>
+                        <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1GXxWpWGI94Mkb2Iux1WnP2hIhy1nUsdc/view?usp=sharing"}/>
+                    </div>
+                    <div>
+                        <Button text="WIREFRAMES" externallink={"https://drive.google.com/file/d/1Lyjo9UaNr1XzoouNLnfp_UfGkVwZRLRx/view?usp=sharing"}/>
+                    </div>
 
                 </div>
             </div>
@@ -250,6 +273,14 @@ export default function UIUXDesign () {
             </div>
         
 
+    </div>
+
+
+    <div className='margintop'>
+        <div className='backtotopui'>
+            <img onClick={ToTop} className='totoparrow' src='/downarrow.svg' />
+            <h4 className='totoptext'>Back to Top</h4>
+        </div>
     </div>
 
 

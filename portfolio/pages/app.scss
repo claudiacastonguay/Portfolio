@@ -90,7 +90,7 @@ a:hover{
     margin: 10px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 800px) {
     .homedesktopflex {
         display: flex;
         align-items: center;
@@ -98,13 +98,19 @@ a:hover{
     }
   }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     .homedesktopflex {
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
     }
+  }
+
+  @media (max-width: 820px){
+      .uihomeimgcont{
+          width: 100% !important;
+      }
   }
 
   .downarrow{
@@ -128,9 +134,22 @@ a:hover{
     margin-right: 30px;
   }
 
+  .uihomeimgcontmobile{
+    height: auto;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+  }
+
   .uihomeimg{
     height: auto;
     max-width: 95%;
+  }
+
+  .uihomeimgmobile{
+    height: auto;
+    max-width: 95%;
+    margin-right: 40px;
   }
 
   .homesectiontitle{
@@ -150,12 +169,25 @@ a:hover{
 
   .graphicdesignhome{
       margin-top: 170px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
   }
+
+  @media(max-width: 821px){
+      .graphicdesignhome{
+        flex-direction:column;
+    }
+  }
+
+  .graphicdesignhomemobile{
+    margin-top: 170px;
+    
+}
 
   @media (min-width: 480px) {
     .graphicdesignhome {
         display: flex;
-        flex-direction: row;
         justify-content: center;
     }
     .graphichometext{
@@ -174,8 +206,48 @@ a:hover{
 
   html{
       scroll-behavior: smooth;
-      
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      overflow-x: hidden;
   }
+
+  ::selection {
+    color: none;
+    background: none;
+}
+
+.totoparrow{
+    width: 50px;
+    cursor: pointer;
+    transform:rotate(180deg);
+}
+
+.backtotop{
+    position: absolute;
+    right: 60px;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backtotopui{
+    position: absolute;
+    right: 60px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totoptext{
+    margin-top: 0;
+    font-size: 12pt;
+}
+
+.margintop{
+    margin:50px;
+}
 
   .scroll{
     transition-delay: 1000ms;
@@ -323,8 +395,13 @@ a:hover{
 }
 
 .craigslistgallery{
-    width: 98%;
-    
+    width: 95%;
+}
+
+@media(max-width: 1000px){
+    .craigslistgallery{
+        width: 90%;
+    }
 }
 
 .EHimg{
@@ -369,6 +446,25 @@ a:hover{
 //GRAPHIC DESIGN PAGE
 
 @media (max-width: 1512px) {
+    .backtotop{
+        position: absolute;
+        right: 30px;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .margintop{
+        margin:70px;
+    }
+    .backtotopui{
+        position: absolute;
+        right: 20px;
+        margin-top: -70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .graphicproject{
         display: flex;
         flex-direction: column;
@@ -440,6 +536,15 @@ a:hover{
     }
     .graphictitle{
         font-size: 35pt;
+    }
+}
+
+@media (max-width: 740px){
+    .flexbuttons{
+        flex-direction: column !important;
+    }
+    #mobilebutton{
+        margin-bottom: 30px;
     }
 }
 
@@ -558,7 +663,7 @@ a:hover{
 
 #vector{
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -583,5 +688,5 @@ a:hover{
 .leftmargin{
     width: 40%;
     margin-left: 100px;
-    margin-top: 120px;
+    // margin-top: 120px;
 }

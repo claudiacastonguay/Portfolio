@@ -7,6 +7,11 @@ import Footer from '../comps/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Head from 'next/head';
+
+
+
+
 function GoToUIUX(){
     Router.push("/ui-ux-design");
 }
@@ -20,6 +25,12 @@ export default function Home () {
     return <div>
 
         <Header homecolor={"#15C4B6"}/>
+
+
+        <Head>
+            <link rel="shortcut icon" href="/favicon2.svg" />
+            <title>Claudia Castonguay - Digital Design</title>
+        </Head>
 
 
 
@@ -61,6 +72,7 @@ export default function Home () {
 
     {/* UI PROJECTS SECTION */}
 
+  
     <div className='graphicdesignhome'>
 
         <div className='uihomeimgcont'>
@@ -68,21 +80,26 @@ export default function Home () {
         </div>
 
         <div className='graphichometext'>
-        <h3 className='homesectiontitle'>UI/UX Design Projects</h3>
-        <p className='homesectiondesc'>See my biggest UI/UX web-application projects that I helped design and develop.</p>
+            <h3 className='homesectiontitle'>UI/UX Design Projects</h3>
+            <p className='homesectiondesc'>See my biggest UI/UX web-application projects that I helped design and develop.</p>
 
-        <div className='sectionhomebutton'>
-            <Button text='SEE PROJECTS' onClick={()=>{
-                GoToUIUX();
-            }}/>
+            <div className='sectionhomebutton'>
+                <Button text='SEE PROJECTS' onClick={()=>{
+                    GoToUIUX();
+                }}/>
+            </div>
         </div>
-        </div>
-    </div>
+    </div> 
+
+
+
+
+    
 
 
     {/* GRAPHIC DESIGN PROJECTS SECTION */}
 
-<div className='graphicdesignhome'>
+    <div className='graphicdesignhome'>
     
     <div className='uihomeimgcont'>
         <img className='uihomeimg' src='/graphicdesignprojects.png'></img>
@@ -100,6 +117,9 @@ export default function Home () {
 </div>
 
 </div>
+
+
+
 
 
 <div>

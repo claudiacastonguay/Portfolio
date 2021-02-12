@@ -9,6 +9,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
+import Head from 'next/head';
+
+
+
+function ToTop(){
+    document.documentElement.scrollTop = 0;
+}
+
 
 
 export default function GraphicDesign(){
@@ -17,6 +25,11 @@ export default function GraphicDesign(){
     return <div>
         
     <Header graphiccolor="#15C4B6"/>
+
+    <Head>
+        <link rel="shortcut icon" href="/favicon2.svg" />
+        <title>Claudia Castonguay - Digital Design</title>
+    </Head>
 
 
     {/* INTRO */}
@@ -110,7 +123,7 @@ export default function GraphicDesign(){
 
     
 
-        <div className='graphicproject'>
+        {process.browser && window.innerWidth >= 1512 ? <div className='graphicproject'>
             <div className='subgraphicproject'>
 
         <div id='vector'>
@@ -148,7 +161,36 @@ export default function GraphicDesign(){
 
         </div>
 
-    </div> 
+    </div> :
+
+    //MOBILE
+
+    <div className='graphicproject'>
+            <div className='subgraphicproject'>
+
+        <div id='vector'>
+                <img className='gamecube' src='/realisticgamecube.png'></img>
+            </div>
+
+
+            <div className='leftmargin'>
+
+                    <h1>REALISTIC VECTOR DRAWING</h1>
+
+                    <p className='graphictext'>For this project, I was assigned to create a vector drawing in Adobe Illustrator as realistic as possible to a reference image of my choice.</p>
+
+                    <p className='graphictext'>This is the final result of my GameCube controller vector drawing. I used various effects, textures, and shapes to make it look as realistic as I could.</p>
+
+
+            </div>
+
+
+            
+
+        </div>
+
+    </div>}
+
 
 
 
@@ -330,6 +372,13 @@ export default function GraphicDesign(){
 
 
     </div>}
+
+    <div className='margintop'>
+        <div className='backtotop'>
+            <img onClick={ToTop} className='totoparrow' src='/downarrow.svg' />
+            <h4 className='totoptext'>Back to Top</h4>
+        </div>
+    </div>
 
 
     <div>
