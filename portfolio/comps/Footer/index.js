@@ -142,7 +142,7 @@ const Footer = () => {
 
         <Socials>
             <SocialLink target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink>
-            <SocialLink target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKED IN</SocialLink>
+            <SocialLink target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink>
             <SocialLink onClick={()=>{
                 alert('instagram');
             }}>INSTAGRAM</SocialLink>
@@ -168,7 +168,7 @@ const Footer = () => {
 
         <Socials2>
             <SocialLink2 target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink2>
-            <SocialLink2 target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKED IN</SocialLink2>
+            <SocialLink2 target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink2>
             <SocialLink2 onClick={()=>{
                 alert('instagram');
             }}>INSTAGRAM</SocialLink2>

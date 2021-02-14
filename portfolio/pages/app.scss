@@ -57,6 +57,7 @@ a:hover{
     padding-top: 80px;
     padding-bottom: 10px;
     margin-bottom: 300px;
+    box-shadow: 0px 5px 5px rgba(206, 206, 206, 0.493);
 }
 
 .topmargin{
@@ -736,4 +737,49 @@ a:hover{
     width: 40%;
     margin-left: 100px;
     // margin-top: 120px;
+}
+
+
+//ABOUT PAGE
+
+.me{
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.aboutflex{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.aboutmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.abouttext{
+    width: 50%;
+    margin-right: 120px;
+}
+
+.abtext{
+    margin-top: 0px;
+}
+
+.abouttitle{
+    margin-bottom: 60px;
+}
+
+.aboutbuttons{
+    margin-top: 50px;
+    display: flex;
+}
+
+.resumemargin{
+    margin-right: 35px;
 }
