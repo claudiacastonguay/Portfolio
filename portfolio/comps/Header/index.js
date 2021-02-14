@@ -146,7 +146,7 @@ const Close = styled.img`
     margin-right: 20px;
     cursor: pointer;
     z-index: 3;
-    position: absolute;
+    position: fixed;
     top: 3;
     right: 0;
 `;

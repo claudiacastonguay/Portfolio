@@ -375,7 +375,7 @@ export default function GraphicDesign(){
 
     <div className='margintop'>
         <div className='backtotop'>
-            <img onClick={ToTop} className='totoparrow' src='/downarrow.svg' />
+            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' />
             <h4 className='totoptext'>Back to Top</h4>
         </div>
     </div>

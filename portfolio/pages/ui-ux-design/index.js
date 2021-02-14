@@ -278,7 +278,7 @@ export default function UIUXDesign () {
 
     <div className='margintop'>
         <div className='backtotopui'>
-            <img onClick={ToTop} className='totoparrow' src='/downarrow.svg' />
+            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' />
             <h4 className='totoptext'>Back to Top</h4>
         </div>
     </div>
