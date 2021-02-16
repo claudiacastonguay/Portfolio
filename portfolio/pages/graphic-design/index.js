@@ -373,6 +373,78 @@ export default function GraphicDesign(){
 
     </div>}
 
+
+
+
+
+    <NextLink className='scroll' href="/graphic-design#motiongraphicproject">
+    <div className='downarrowcont'>
+                    <img className='downarrow' src='/downarrow.svg'></img>
+        </div>
+    </NextLink>
+
+
+
+
+
+
+    {/* MOTION GRAPHICS VIDEO */}
+
+    {/* DESKTOP */}
+
+
+    {process.browser && window.innerWidth >= 680 ? <div className='graphicproject'>
+        <div id='motiongraphicproject'>
+
+            <div className='videotext'>
+
+                    <h1 id='motion'>MOTION GRAPHIC VIDEO</h1>
+
+                    <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
+
+                    <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
+
+            </div>
+
+
+            <div id='painting'>
+                <iframe className='animation' width="560" height="515" src="https://www.youtube.com/embed/O_OEwfSI7sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+
+        </div>
+
+    </div> :
+
+    //MOBILE
+
+<div className='graphicproject'>
+    <div id='motiongraphicproject'>
+
+    <div className='videotext'>
+
+            <h1>MOTION GRAPHIC VIDEO</h1>
+
+            <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
+
+            <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
+
+    </div>
+
+
+    <div id='painting'>
+        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/O_OEwfSI7sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
+
+</div>
+
+</div>}
+
+
+
+
+
     <div className='margintop'>
         <div className='backtotop'>
             <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' />
