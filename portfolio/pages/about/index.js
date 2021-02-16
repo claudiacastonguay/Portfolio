@@ -36,7 +36,7 @@ export default function About (){
                 </div>
 
                 <div className='aboutimg'>
-                    <img className='me' src='/placeholder.png' />
+                    <img className='me' src='/aboutpage.png' />
                 </div>
 
 

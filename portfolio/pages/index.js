@@ -58,7 +58,7 @@ export default function Home () {
             <img className='homeimg' src="/placeholder.png"></img>
         </div> : 
         <div className='desktophomeimgcont'>
-            <img className='desktophomeimg' src="/homepage2.png"></img>
+            <img className='desktophomeimg' src="/homepage1.png"></img>
         </div>}
 
     

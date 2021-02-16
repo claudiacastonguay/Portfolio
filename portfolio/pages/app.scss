@@ -252,7 +252,7 @@ a:hover{
       scroll-behavior: smooth;
       -webkit-tap-highlight-color: transparent;
       -webkit-user-select: none;
-      overflow-x: hidden;
+    //   overflow-x: hidden;
   }
 
   ::selection {
@@ -446,11 +446,7 @@ a:hover{
     width: 95%;
 }
 
-@media(max-width: 1000px){
-    .craigslistgallery{
-        width: 90%;
-    }
-}
+
 
 .EHimg{
     width: 100%;
@@ -743,16 +739,17 @@ a:hover{
 //ABOUT PAGE
 
 .me{
-    max-width: 800px;
+    max-width: 500px;
     height: auto;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .aboutflex{
     display: flex;
     width: 80%;
     align-items: center;
+    justify-content: center;
 }
 
 .aboutmain{
@@ -760,6 +757,7 @@ a:hover{
     display: flex;
     justify-content: center;
     margin-top: 130px;
+    align-items: center;
 }
 
 .abouttext{
@@ -782,4 +780,34 @@ a:hover{
 
 .resumemargin{
     margin-right: 35px;
+}
+
+@media(max-width: 1000px){
+    .craigslistgallery{
+        width: 90%;
+    }
+    .aboutflex{
+        flex-direction: column-reverse;
+        width: 96% !important;
+        align-items: center !important;
+    }
+    .me{
+        margin-left: 0 !important;
+    }
+    .aboutimg{
+        width: 90% !important;
+        display: flex !important;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .abouttext{
+        width: 90% !important;
+        margin-right: 0 !important;
+    }
+    .abouttitle{
+        font-size: 33pt;
+    }
+    .aboutmain{
+        margin-top: 50px !important;
+    }
 }
