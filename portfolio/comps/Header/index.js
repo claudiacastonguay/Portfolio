@@ -13,19 +13,21 @@ const Container = styled.div`
 `;
 
 const Menu = styled.div`
-    display: ${props=>props.showmenu ? "flex" : "none"};
-    opacity: ${props=>props.showmenu ? "1" : "0"};
+    visibility: ${props=>props.showmenu ? "visible" : "hidden"};
+    opacity: ${props=>props.fadein ? 1 : 0};
     z-index: 2;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    transition: 0.4s;
+    transition:opacity 0.25s;
+    transition-timing-function: ease;
 `;
 
 const NavUI = styled.h4`
@@ -74,6 +76,7 @@ const NavHome = styled.h4`
 const MobileNavUI = styled.h3`
     cursor: pointer;
     margin-bottom: 60px;
+    font-size: ${props=>props.uifont ? "25pt" : "20pt"};
     transition: 0.25s;
     color: ${props=>props.uicolor ? "#15C4B6" : "black"};
 
@@ -85,6 +88,7 @@ const MobileNavUI = styled.h3`
 const MobileNavGraphic = styled.h3`
     cursor: pointer;
     margin-bottom: 60px;
+    font-size: ${props=>props.graphicfont ? "25pt" : "20pt"};
     transition: 0.25s;
     color: ${props=>props.graphiccolor ? "#15C4B6" : "black"};
 
@@ -95,6 +99,7 @@ const MobileNavGraphic = styled.h3`
 
 const MobileNavAbout = styled.h3`
     cursor: pointer;
+    font-size: ${props=>props.aboutfont ? "25pt" : "20pt"};
     margin-bottom: 60px;
     transition: 0.25s;
     color: ${props=>props.aboutcolor ? "#15C4B6" : "black"};
@@ -107,6 +112,7 @@ const MobileNavAbout = styled.h3`
 const MobileNavHome = styled.h3`
     cursor: pointer;
     margin-bottom: 60px;
+    font-size: ${props=>props.homefont ? "25pt" : "20pt"};
     transition: 0.25s;
     color: ${props=>props.homecolor ? "#15C4B6" : "black"};
 
@@ -180,30 +186,32 @@ function routeAbout(){
 
 
 
-const Header = ({show, mobilehidden, uicolor, graphiccolor, aboutcolor, homecolor}) => {
+const Header = ({show, mobilehidden, uicolor, graphiccolor, aboutcolor, homecolor, graphicfont, uifont, homefont, aboutfont}) => {
 
     const [showmenu, setMenu] = useState(false);
+    const [fadein, changeOpacity] = useState(0);
     const [showclose, setClose] = useState(false);
 
     return <Container>
         
 
-        <Close src='close.svg' showmenu={'flex'} showclose={showclose} showmenu={showmenu} onClick={()=>{
+        <Close src='close.svg' showmenu={showmenu} showclose={showclose} fadein={fadein} onClick={()=>{
             setClose(!showclose);
             setMenu(!showmenu);
+            changeOpacity(!fadein);
         }} />
 
-        <Menu showmenu={showmenu}>
-        <MobileNavHome homecolor={homecolor} onClick={()=>{
+        <Menu showmenu={showmenu} fadein={fadein}>
+        <MobileNavHome homecolor={homecolor} homefont={homefont} onClick={()=>{
             routeHome();
         }}>HOME</MobileNavHome>
-            <MobileNavUI uicolor={uicolor} onClick={()=>{
+            <MobileNavUI uicolor={uicolor} uifont={uifont} onClick={()=>{
             routeUIUX();
         }}>UI/UX DESIGN</MobileNavUI>
-            <MobileNavGraphic graphiccolor={graphiccolor} onClick={()=>{
+            <MobileNavGraphic graphiccolor={graphiccolor} graphicfont={graphicfont} onClick={()=>{
             routeGraphicDesign();
         }}>GRAPHIC DESIGN</MobileNavGraphic>
-            <MobileNavAbout aboutcolor={aboutcolor} onClick={()=>{
+            <MobileNavAbout aboutcolor={aboutcolor} aboutfont={aboutfont} onClick={()=>{
             routeAbout();
         }}>ABOUT</MobileNavAbout>
         </Menu>
@@ -217,9 +225,10 @@ const Header = ({show, mobilehidden, uicolor, graphiccolor, aboutcolor, homecolo
 
 
         {process.browser && window.innerWidth <= 1200 ?
-            <HamMenu src='/menu.svg' show={'flex'} showmenu={showmenu} showclose={showclose} onClick={()=>{
+            <HamMenu src='/menu.svg' show={'flex'} showmenu={showmenu} fadein={fadein} showclose={showclose} onClick={()=>{
                 setMenu(!showmenu);
                 setClose(!showclose);
+                changeOpacity(!fadein);
             }} /> : null}
 
 

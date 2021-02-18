@@ -8,7 +8,7 @@ import Head from 'next/head';
 export default function About (){
     return <div>
 
-        <Header aboutcolor={"#15C4B6"} />
+        <Header aboutcolor={"#15C4B6"} aboutfont="27pt" />
 
         <Head>
             <link rel="shortcut icon" href="/favicon2.svg" />

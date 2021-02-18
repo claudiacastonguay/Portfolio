@@ -25,7 +25,7 @@ function RouteGraphic(){
 export default function Home () {
     return <div>
 
-        <Header homecolor={"#15C4B6"}/>
+        <Header homecolor={"#15C4B6"} homefont="27pt"/>
 
 
         <Head>

@@ -23,7 +23,7 @@ function ToTop(){
 export default function UIUXDesign () {
     return <div className='uiux'>
 
-    <Header uicolor={"#15C4B6"}/>
+    <Header uicolor={"#15C4B6"} uifont="30pt" />
 
     <Head>
         <link rel="shortcut icon" href="/favicon2.svg" />
@@ -33,18 +33,22 @@ export default function UIUXDesign () {
 
         {/* INTRO */}
 
+        <div id='centeruititle'>
+
         <div className='uititlecont'>
             
             <div className='subtitlecont'>
                 <h1 className='uiuxtitle'>UI/UX DESIGN</h1>
-                <h5 className='uiuxsubtitle'>Below are my biggest projects of web applications I've helped design and develop with different teams.</h5>
+                <h5 className='uiuxsubtitle'>Below are my biggest web application projects that I've helped design and develop with different teams.</h5>
             </div>
 
-            <NextLink className='scroll' href="/ui-ux-design#earthherocont">
+            <NextLink className='scroll' href="/ui-ux-design#earthherotitle">
                 <div className='downarrowcont2'>
                     <img className='downarrow' src='/whitedownarrow.svg'></img>
                 </div>
             </NextLink>
+        </div>
+
         </div>
 
 
@@ -52,12 +56,11 @@ export default function UIUXDesign () {
         {/* EARTH HERO */}
 
     <div id='earthherocont'>
-        <h1 className='earthherotitle'>EARTH HERO</h1>
+        <h1 id='earthherotitle'>EARTH HERO</h1>
     </div>
 
         <div className='flexearthhero'>
             <div className='earthheroimg'>
-                {/* <img className='EHimg' src='/earthherogallery.png'></img> */}
                 <Slider 
                     speed={1000}
                     slidesToScroll={1}
@@ -113,7 +116,7 @@ export default function UIUXDesign () {
 
 
 
-    <NextLink className='scroll' href="/ui-ux-design#craigslistcont">
+    <NextLink className='scroll' href="/ui-ux-design#craigslisttitle">
         <div className='downarrowcont'>
             <img className='downarrow' src='/downarrow.svg'></img>
         </div>
@@ -124,13 +127,13 @@ export default function UIUXDesign () {
     {/* CRAIGSLIST REDESIGN */}
 
 
+
     <div id='craigslistcont'>
-        <h1 className='earthherotitle'>CRAIGSLIST REDESIGN</h1>
+        <h1 id='craigslisttitle'>CRAIGSLIST REDESIGN</h1>
     </div>
 
         <div className='flexearthhero'>
             <div className='craigslistgallery'>
-                {/* <img className='EHimg' src='/placeholder.png'></img> */}
                 <Slider 
                     speed={1000}
                     slidesToScroll={1}
@@ -172,7 +175,8 @@ export default function UIUXDesign () {
 
         <h2 className='overview'>OVERVIEW</h2>
         <p className='uiprojecttext'>Most of us have visited <a target='_blank' href='https://craigslist.org'>Craigslist.com</a>, whether it be to buy something cheap, check out discussion forums, or sell something for a bit of extra cash in the pocket. However, you may have noticed that Craigslist's website looks a little bit... messy? Perhaps, cluttered and old-looking too? Well, as a UI/UX designer student, I was assigned to give Craigslist a whole new look. The project required that we completely redesign Craigslist and give it an entirely new user interface and a much better user experience.</p>
-        <p className='uiprojecttext'>We noticed that the orignal Craigslist lacks a lot of white space, the links and text are all cluttered together, and the interface is not as intuitive as it could be. With our redesign, we made use of lots of white space, more visuals, more color, and bigger font. For a better UX, we gave the new Craigslist some better functionalities. For instance, we added a clear and easy-to-use filter and some drop-downs from the header menu.</p>
+
+        <p className='uiprojecttext'>We noticed that the original Craigslist lacks a lot of white space, the links and text are all cluttered together, and the interface is not as intuitive as it could be. With our redesign, we made use of lots of white space, more visuals, more color, and larger font. For a better UX, we gave the new Craigslist some better functionalities. For instance, we added a clear and easy-to-use filter and some drop-downs from the header menu.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
         <p className='uiprojecttext'>This was created with a team of four members, including myself. The team consisted of one designer/front-end developer, one front-end developer, a full-stack developer for the back-end, and one designer, myself. I was responsible for the majority of the design of this web application. I created about 90% of the high-fidelity mockups which included both mobile and desktop versions.</p>
@@ -196,7 +200,7 @@ export default function UIUXDesign () {
 
 
 
-    <NextLink className='scroll' href="/ui-ux-design#ddcont">
+    <NextLink className='scroll' href="/ui-ux-design#ddtitle">
         <div className='downarrowcont'>
             <img className='downarrow' src='/downarrow.svg'></img>
         </div>
@@ -212,12 +216,11 @@ export default function UIUXDesign () {
 
 
     <div id='ddcont'>
-        <h1 className='earthherotitle'>DAIRY DELIGHT</h1>
+        <h1 id='ddtitle'>DAIRY DELIGHT</h1>
     </div>
 
         <div className='flexearthhero'>
             <div className="ddgallery">
-                {/* <img className='EHimg' src='/placeholder.png'></img> */}
                 <Slider 
                     speed={1000}
                     slidesToScroll={1}

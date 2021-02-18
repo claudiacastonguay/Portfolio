@@ -24,7 +24,7 @@ export default function GraphicDesign(){
 
     return <div>
         
-    <Header graphiccolor="#15C4B6"/>
+    <Header graphiccolor="#15C4B6" graphicfont="27pt"/>
 
     <Head>
         <link rel="shortcut icon" href="/favicon2.svg" />
@@ -38,7 +38,7 @@ export default function GraphicDesign(){
             
             <div className='subtitlecont'>
                 <h1 className='uiuxtitle'>GRAPHIC DESIGN</h1>
-                <h5 className='uiuxsubtitle'>Here is some of my best graphic design work using Adobe Photoshop and Illustrator.</h5>
+                <h5 className='uiuxsubtitle'>Here are some of my best graphic design works using Adobe Photoshop and Illustrator.</h5>
             </div>
             
             <NextLink className='scroll' href="/graphic-design#audiofina">
@@ -398,7 +398,7 @@ export default function GraphicDesign(){
 
             <div className='videotext'>
 
-                    <h1 id='motion'>MOTION GRAPHIC VIDEO</h1>
+                    <h1 id='motion'>MOTION GRAPHICS VIDEO</h1>
 
                     <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
 
@@ -408,7 +408,7 @@ export default function GraphicDesign(){
 
 
             <div id='painting'>
-                <iframe className='animation' width="560" height="515" src="https://www.youtube.com/embed/O_OEwfSI7sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className='animation' width="560" height="515" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 
             </div>
 
@@ -423,7 +423,7 @@ export default function GraphicDesign(){
 
     <div className='videotext'>
 
-            <h1>MOTION GRAPHIC VIDEO</h1>
+            <h1>MOTION GRAPHICS VIDEO</h1>
 
             <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
 
@@ -433,7 +433,8 @@ export default function GraphicDesign(){
 
 
     <div id='painting'>
-        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/O_OEwfSI7sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
     </div>
 
