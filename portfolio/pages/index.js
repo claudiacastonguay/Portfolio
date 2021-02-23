@@ -54,12 +54,12 @@ export default function Home () {
 
         </div>
 
-        {process.browser && window.innerWidth <= 480 ? <div className='homeimgcont'>
+        {/* {process.browser && window.innerWidth <= 480 ? <div className='homeimgcont'>
             <img className='homeimg' src="/placeholder.png"></img>
         </div> : 
         <div className='desktophomeimgcont'>
             <img className='desktophomeimg' src="/homepage1.png"></img>
-        </div>}
+        </div>} */}
 
     
     </div>
