@@ -45,10 +45,10 @@ export default function Home () {
        <div className='homedesktopflex'>
 
         <div className="hometitle">
-            {process.browser && window.innerWidth <= 480 ? 
-            <h2>Hi, I'm Claudia Castonguay.</h2> : <h1>Hi, I'm Claudia Castonguay.</h1>}
+            {process.browser && window.innerWidth <= 680 ? 
+            <h2>Hi, I'm Claudia Castonguay.</h2> : <h1 className='titlehome'>Hi, I'm Claudia Castonguay.</h1>}
 
-        {process.browser && window.innerWidth <= 480 ?
+        {process.browser && window.innerWidth <= 680 ?
         <h5 className="homesubtitle">I'm an aspiring UI/UX and graphic designer in Vancouver, BC.</h5> : 
         <h5 className="desktophomesubtitle">I'm an aspiring UI/UX and graphic designer in Vancouver, BC.</h5>}
 
@@ -66,7 +66,7 @@ export default function Home () {
 
 
 
-    <NextLink className='scroll' href="/#uihomeimgcont">
+    <NextLink className='scroll' href="/#ui">
         <div className='downarrowconthome'>
             <img className='downarrow' src='/downarrow.svg'></img>
         </div>
@@ -84,7 +84,7 @@ export default function Home () {
      <div className='graphicdesignhome'>
         
 
-            <div id='uihomeimgcont'>
+            <div id='ui'>
                 <img className='uihomeimg' src='/uiprojects.png'></img>
             </div>
 

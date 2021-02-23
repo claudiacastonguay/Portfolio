@@ -84,11 +84,14 @@ export default function UIUXDesign () {
 
                 <div className="flexbuttons">
 
-                    <div id="mobilebutton">
+                    <div className="mobilebutton">
                         <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1tC4xmnL_hHuwGkZ-MN74B2kE7ABWEeR9/view?usp=sharing"}/>
                      </div>
-                     <div>
+                     <div className='mobilebutton'>
                         <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/10GdGj15OcSi283O86dAk0oBJm9tpzY3M/view?usp=sharing"}/>
+                    </div>
+                    <div>
+                        <Button text="GITHUB" externallink={"https://github.com/mathieuharvey/Earth-Hero"}/>
                     </div>
 
                 </div>
