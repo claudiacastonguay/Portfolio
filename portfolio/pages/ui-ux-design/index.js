@@ -101,12 +101,12 @@ export default function UIUXDesign () {
     <div className='uiprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
-        <p className='uiprojecttext'>Earth Hero is a mobile educational web application that teaches users about climate change issues around the world. It allows you to select a topic to learn about and quizzes you afterwards on the information you've read. This app is aimed to a young target audience, specifically kids around the age of 10-17. The language used is simple for the users to understand, and Earth Hero's clean and intuitive UI allows it to effectively educate its user.</p>
-        <p className='uiprojecttext'>Climate change is still a severe problem to this day, and the goal for Earth Hero is simply to educate and inform. The user for this app doesn't need to be someone in the younger generations; it can be for anyone who wants to learn and discover the different major climate change issues existing today.</p>
-        <p className='uiprojecttext'>However, we didn't want Earth Hero to only inform people. So we implemented a card within each climate change topic that gives a few ways the user can help to make a difference. With that, we hope users can take away some valuable knowledge and experiences from using Earth Hero.</p>
+        <p className='uiprojecttext'>Earth Hero is a mobile educational web application that teaches users about climate change issues around the world. It allows you to select a topic to learn about and quizzes you afterwards on the information you've read. This app is aimed at a young target audience, specifically kids around 10-17 years of age. The language used in the app is simple for the users to understand. Earth Hero's UI is layed out in a clean and intuitive manner giving users an effortless learning experience.</p>
+        <p className='uiprojecttext'>Climate change is still a severe problem to this day. The goal for Earth Hero is simply to educate and inform. The user for this app doesn't need to be someone in the younger generations; it can be for anyone who wants to learn and discover the different major climate change issues existing today.</p>
+        <p className='uiprojecttext'>However, Earth Hero was not intended to be solely an informational app. So we implemented a page within each climate change topic that suggests a few ways the user can help to make a difference. We hope that this app will not only educate users but encourage them to make a contribution towards improving climate change.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
-        <p className='uiprojecttext'>This app was created with a group of three team members, including myself. All three team members were enrolled as designers and front-end developers. I was responsible for most of the development of this app and only helped out with a few design aspects.</p>
+        <p className='uiprojecttext'>I was one of three team members that created this application. All three team members were enrolled as designers and front-end developers. I was responsible for most of the development of this app and only helped out with a few design aspects.</p>
 
         <h2 className='uisubtitle'>TRY IT OUT</h2>
         <p className='uiprojecttext'>You can try out Earth Hero on your phone's browser or on a desktop browser. If you choose to view it on a desktop, make sure you right-click the screen and click 'Inspect.' Then press <b>Ctrl (Cmd) + Shift + M</b> to switch to a mobile view.</p>
@@ -177,12 +177,12 @@ export default function UIUXDesign () {
     <div className='uiprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
-        <p className='uiprojecttext'>Most of us have visited <a target='_blank' href='https://craigslist.org'>Craigslist.com</a>, whether it be to buy something cheap, check out discussion forums, or sell something for a bit of extra cash in the pocket. However, you may have noticed that Craigslist's website looks a little bit... messy? Perhaps, cluttered and old-looking too? Well, as a UI/UX designer student, I was assigned to give Craigslist a whole new look. The project required that we completely redesign Craigslist and give it an entirely new user interface and a much better user experience.</p>
+        <p className='uiprojecttext'>Most of us have visited <a target='_blank' href='https://craigslist.org'>Craigslist.com</a>, whether it be to buy something cheap, check out discussion forums, or sell something for a bit of extra cash. However, you may have noticed that Craigslist's website looks a little bit... messy? Cluttered and archaic too? As a UI/UX designer student, I was assigned to give Craigslist a whole new look. The project required that we completely redesign Craigslist and give it an entirely new user interface and a much better user experience.</p>
 
-        <p className='uiprojecttext'>We noticed that the original Craigslist lacks a lot of white space, the links and text are all cluttered together, and the interface is not as intuitive as it could be. With our redesign, we made use of lots of white space, more visuals, more color, and larger font. For a better UX, we gave the new Craigslist some better functionalities. For instance, we added a clear and easy-to-use filter and some drop-downs from the header menu.</p>
+        <p className='uiprojecttext'>We noticed that the original Craigslist lacks a lot of white space. In addition, the links and text are all cluttered together and the interface is not all that intuitive. In our redesign we made use of lots of white space, more visuals, more color, and larger font. For a better UX we gave the new Craigslist some better functionalities. For instance, we added a clear and easy-to-use filter as well as some drop-down menus from the main navigation bar.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
-        <p className='uiprojecttext'>This was created with a team of four members, including myself. The team consisted of one designer/front-end developer, one front-end developer, a full-stack developer for the back-end, and one designer, myself. I was responsible for the majority of the design of this web application. I created about 90% of the high-fidelity mockups which included both mobile and desktop versions.</p>
+        <p className='uiprojecttext'>I was one of four team members that created this application. The team consisted of one designer/front-end developer, one front-end developer, a full-stack developer for the back-end, and myself as a designer. I was responsible for the majority of the design of this web application. I created about 90% of the high-fidelity mockups which included both mobile and desktop versions.</p>
 
         <h2 className='uisubtitle'>PROTOTYPES</h2>
         <p className='uiprojecttext'>The prototypes of this app are available for you to check out below for desktop and mobile.</p>
@@ -265,7 +265,7 @@ export default function UIUXDesign () {
 
         <h2 className='overview'>OVERVIEW</h2>
         <p className='uiprojecttext'>Dairy Delight is a faux small ice cream business that sells ice cream, milkshakes, and cakes made with natural ingredients. They also offer an online delivery service providing tubs of ice cream on their website.</p>
-        <p className='uiprojecttext'>The purpose of this project was to come up with any type of small business and give it branding and a website. This site was not developed, it was only made into a high-fidelity mockup.</p>
+        <p className='uiprojecttext'>The purpose of this project was to come up with any type of small business and give it branding and a website. This site was not developed; it was only made into a high-fidelity mockup.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
         <p className='uiprojecttext'>This project was completed by a team of two members, including myself. Since this project was solely design-focused, the design was split evenly between my team member and I. I was responsible for designing the Home page, the Menu page, and the Ice Cream Menu page. I also created the header and footer for this mockup.</p>

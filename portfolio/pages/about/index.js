@@ -23,7 +23,7 @@ export default function About (){
                 <div className='abouttext'>
                         <h1 className='abouttitle'>A bit about me.</h1>
                         <h5 className='abtext'>Hello! My name is Claudia Castonguay and I'm a very passionate digital designer. I love getting my hands on a computer and working with different softwares to create digital assets and layouts.</h5>
-                        <h5 className='abtext'>Ever since I was very young, I've had a love for technology. Whether that be working with phones, computers, or anything in between. I always admire seeing good UI/UX designs. They always inspire me to create my own most effective and good-looking layouts for different web and mobile applications.</h5>
+                        <h5 className='abtext'>Ever since I was very young I've had a love for technology. I've always loved to work with phones, computers, or anything in between. I admire seeing good UI/UX designs. They always inspire me to create effective and aesthetic layouts for different web and mobile applications.</h5>
                         <h5 className='abtext'>Now, with almost two years of digital design experience, I'm ready to put my skills into action. I'm looking forward to gaining valuable experience designing in a real work environment.</h5>
 
                         <div className='aboutbuttons'>

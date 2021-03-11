@@ -38,7 +38,7 @@ export default function GraphicDesign(){
             
             <div className='subtitlecont'>
                 <h1 className='uiuxtitle'>GRAPHIC DESIGN</h1>
-                <h5 className='uiuxsubtitle'>Here are some of my best graphic design works using Adobe Photoshop and Illustrator.</h5>
+                <h5 className='uiuxsubtitle'>Here are some of my best graphic design creations using Adobe Photoshop and Illustrator.</h5>
             </div>
             
             <NextLink className='scroll' href="/graphic-design#audiofina">
@@ -64,7 +64,7 @@ export default function GraphicDesign(){
 
                     <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
 
-                    <p className='graphictext'>The left column shows all five logos in only black and white. Next, the middle column shows the colorized logos with only solid colors. Lastly, the right column also shows the colorized logos but with the use of gradients and various effects.</p>
+                    <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
 
             </div>
 
@@ -94,7 +94,7 @@ export default function GraphicDesign(){
 
                 <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
 
-                <p className='graphictext'>The left column shows all five logos in only black and white. Next, the middle column shows the colorized logos with only solid colors. Lastly, the right column also shows the colorized logos but with the use of gradients and various effects.</p>
+                <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
 
         </div>
 
@@ -325,7 +325,7 @@ export default function GraphicDesign(){
 
                     <h1 className='graphictitle'>MOCK ALBUM COVER</h1>
 
-                    <p className='graphictext'>For this project, I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
+                    <p className='graphictext'>For this project I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
 
                     <p className='graphictext'>I put together this mock album cover using a couple of royalty-free images, some vector shapes, lots of different brushes, and lots of effects.</p>
 
@@ -357,7 +357,7 @@ export default function GraphicDesign(){
 
                     <h1 className='graphictitle'>MOCK ALBUM COVER</h1>
 
-                    <p className='graphictext'>For this project, I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
+                    <p className='graphictext'>For this project I was told to create anything I wanted in Adobe Photoshop, as long as it met certain requirements in terms of technical things like using brushes and effects.</p>
 
                     <p className='graphictext'>I put together this mock album cover using a couple of royalty-free images, some vector shapes, lots of different brushes, and lots of effects.</p>
 
