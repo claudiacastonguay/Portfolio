@@ -57,7 +57,9 @@ const Socials = styled.div`
     display: flex;
     margin-top: 90px;
     justify-content: space-between;
-    max-width: 500px;
+    // use when instagram added
+    // max-width: 500px;
+    max-width: 300px;
 `;
 
 const SocialLink = styled.a`
@@ -104,7 +106,9 @@ const Socials2 = styled.div`
     display: flex;
     margin-top: 90px;
     justify-content: space-between;
-    max-width: 285px;
+    // use when instagram added
+    // max-width: 285px;
+    max-width: 230px;
 `;
 
 const Copyright = styled.p`
@@ -132,7 +136,7 @@ const Footer = () => {
             <Name>CLAUDIA CASTONGUAY</Name>
             <SubTitle>DIGITAL DESIGN / FRONT-END DEVELOPMENT</SubTitle>
             <br />
-            <Location>Vancouver, BC, Canada</Location>
+            <Location>Vancouver, BC <br /> Canada</Location>
 
         <Contacts>
             <Email target='_blank' href={'mailto:claudcastonguay@gmail.com'}>claudcastonguay@gmail.com</Email>
@@ -143,9 +147,12 @@ const Footer = () => {
         <Socials>
             <SocialLink target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink>
             <SocialLink target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink>
-            <SocialLink onClick={()=>{
+            
+            {/* ADD INSTAGRAM LATER */}
+            
+            {/* <SocialLink onClick={()=>{
                 alert('Currently Unavailable');
-            }}>INSTAGRAM</SocialLink>
+            }}>INSTAGRAM</SocialLink> */}
         </Socials>
             
          </MainText> : null}
@@ -158,7 +165,7 @@ const Footer = () => {
             <Name2>CLAUDIA CASTONGUAY</Name2>
             <SubTitle2>DIGITAL DESIGN / FRONT-END DEVELOPMENT</SubTitle2>
             <br />
-            <Location2>Vancouver, BC, Canada</Location2>
+            <Location2>Vancouver, BC <br /> Canada</Location2>
 
         <Contacts>
             <Email target='_blank' href={'mailto:claudcastonguay@gmail.com'}>claudcastonguay@gmail.com</Email>
@@ -169,9 +176,12 @@ const Footer = () => {
         <Socials2>
             <SocialLink2 target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink2>
             <SocialLink2 target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink2>
-            <SocialLink2 onClick={()=>{
+            
+            {/* ADD INSTAGRAM LATER */}
+
+            {/* <SocialLink2 onClick={()=>{
                 alert('Currently Unavailable');
-            }}>INSTAGRAM</SocialLink2>
+            }}>INSTAGRAM</SocialLink2> */}
         </Socials2>
             
          </MainText> : null}
