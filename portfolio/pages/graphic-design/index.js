@@ -398,7 +398,7 @@ export default function GraphicDesign(){
 
             <div className='videotext'>
 
-                    <h1 id='motion'>MOTION GRAPHICS VIDEO</h1>
+                    <h1 className='graphictitle'>MOTION GRAPHICS VIDEO</h1>
 
                     <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
 
@@ -423,7 +423,7 @@ export default function GraphicDesign(){
 
     <div className='videotext'>
 
-            <h1>MOTION GRAPHICS VIDEO</h1>
+            <h1 className='graphictitle'>MOTION GRAPHICS VIDEO</h1>
 
             <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
 
@@ -441,6 +441,78 @@ export default function GraphicDesign(){
 </div>
 
 </div>}
+
+
+
+
+
+<NextLink className='scroll' href="/graphic-design#promoanimation">
+    <div className='downarrowcont'>
+                    <img className='downarrow' src='/downarrow.svg'></img>
+        </div>
+    </NextLink>
+
+
+
+
+
+
+{/* SHIMA JAVAN DESIGN ANIMATION */}
+
+    {/* DESKTOP */}
+
+
+    {process.browser && window.innerWidth >= 680 ? <div className='graphicproject'>
+        <div id='promoanimation'>
+
+            <div className='videotext'>
+
+                    <h1 id='animatetitle'>PROMOTIONAL ANIMATION</h1>
+                    <h3 id='animatesubtitle'>Shima Javan Interior Design</h3>
+
+                    <p className='graphictext'>During my last two months at BCIT, I worked for Shima Javan Interior Design for my practicum. This is a start-up interior design business that required a short animation to help promote its website and social media accounts.</p>
+
+                    <p className='graphictext'>I created the first half of this animation as well as the outro of the video; my co-worker completed the second half. This was animated using Adobe After Effects.</p>
+
+            </div>
+
+
+            <div id='painting'>
+                <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/eJdJT5Fq2ys" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                
+            </div>
+
+        </div>
+
+    </div> :
+
+    //MOBILE
+
+<div className='graphicproject'>
+    <div id='promoanimation'>
+
+    <div className='videotext'>
+
+            <h1 id='animatetitle'>PROMOTIONAL ANIMATION</h1>
+            <h3 id='animatesubtitle'>Shima Javan Interior Design</h3>
+
+            <p className='graphictext'>During my last two months at BCIT, I worked for Shima Javan Interior Design for my practicum. This is a start-up interior design business that required a short animation to help promote its website and social media accounts.</p>
+
+            <p className='graphictext'>I created the first half of this animation as well as the outro of the video; my co-worker completed the second half. This was animated using Adobe After Effects.</p>
+
+    </div>
+
+
+    <div id='painting'>
+
+        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/eJdJT5Fq2ys" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        
+    </div>
+
+</div>
+
+</div>}
+
 
 
 

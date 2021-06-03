@@ -117,7 +117,7 @@ export default function Home () {
 
         <div className='graphichometext'>
         <h3 className='homesectiontitle'>Graphic Design Projects</h3>
-        <p className='homesectiondesc'>See my best graphic design work I created using Adobe Photoshop and Illustrator.</p>
+        <p className='homesectiondesc'>See my best graphic design work I created using Adobe Photoshop, Illustrator, and After Effects.</p>
 
         <div className='sectionhomebutton'>
             <Button text='SEE PROJECTS' onClick={()=>{

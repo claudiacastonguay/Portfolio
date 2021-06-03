@@ -84,10 +84,10 @@ export default function UIUXDesign () {
 
                 <div className="flexbuttons">
 
-                    <div className="mobilebutton">
+                    <div id="mobilebutton">
                         <Button text="STYLE GUIDE" externallink={"https://drive.google.com/file/d/1tC4xmnL_hHuwGkZ-MN74B2kE7ABWEeR9/view?usp=sharing"}/>
                      </div>
-                     <div className='mobilebutton'>
+                     <div id='mobilebutton'>
                         <Button text="USER RESEARCH" externallink={"https://drive.google.com/file/d/10GdGj15OcSi283O86dAk0oBJm9tpzY3M/view?usp=sharing"}/>
                     </div>
                     <div>
@@ -199,6 +199,90 @@ export default function UIUXDesign () {
         </div>
 
     </div>
+
+
+
+
+    <NextLink className='scroll' href="/ui-ux-design#sjtitle">
+        <div className='downarrowcont'>
+            <img className='downarrow' src='/downarrow.svg'></img>
+        </div>
+    </NextLink>
+
+
+
+
+    {/* SHIMA JAVAN DESIGN WEBSITE */}
+    
+
+
+    <div id='sjcont'>
+        <h1 id='sjtitle'>SHIMA JAVAN <br /> INTERIOR DESIGN</h1>
+        {/* <h3 id='sjsubtitle'>Shima Javan Interior Design</h3> */}
+    </div>
+
+        <div className='flexearthhero'>
+            <div className="ddgallery">
+                <Slider 
+                    speed={1000}
+                    slidesToScroll={1}
+                    slidestoShow={1}
+                    infinite={false}
+                    dots={true}
+                    >
+
+                    <img src='/sjgallery1.png' />
+                    <img src='/sjgallery2.png' />
+                    <img src='/sjgallery3.png' />
+                </Slider>
+            </div>
+        </div>
+
+
+        <div className='downloadsflex'>
+            <div className='uidownloads'>
+                
+                    <h4>The early prototypes for desktop and mobile of this website can be viewed here:</h4>
+                    <h4 id='sjexplain'>(Prototypes are not exactly replicated in the real website due to design changes made during development; fake images are used in the mockups on all pages).</h4>
+                
+
+                <div className="flexbuttons">
+                    
+                    <div id='mobilebutton'>
+                        <Button text="DESKTOP PROTOTYPE" externallink={"https://www.figma.com/proto/HnrdNzq3Uxs6YcFOaD0Bv9/SJD-Desktop-Hi-Fi?scaling=min-zoom&page-id=0%3A1&node-id=62%3A3905"}/>
+                    </div>
+                    <div>
+                        <Button text="MOBILE PROTOTYPE" externallink={"https://www.figma.com/proto/6G3OyJn4ISI79JPc0rdQeR/SJD-Mobile-Hi-Fi?scaling=min-zoom&page-id=0%3A1&node-id=84%3A209"}/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    <div className='uiprojectinfo'>
+
+        <h2 className='overview'>OVERVIEW</h2>
+        <p className='uiprojecttext'>Shima Javan Interior Design is a start-up interior design business. Since this business is new, it previously did not have an existing website and lacked many marketing and promotional strategies.</p>
+        <p className='uiprojecttext'>During the last couple of months of my program at BCIT, I worked with the owner, Shima Javan, for my practicum. Part of my job while working for this business was to design and develop its website.</p>
+
+        <h2 className='uisubtitle'>ROLES</h2>
+        <p className='uiprojecttext'>This project was completed by a team of two members, including myself. The design work was evenly split between me and my co-worker. I was responsible for developing 90% of the website. This website was developed using <a target="_blank" href='https://squarespace.com'>Squarespace</a>. Due to Shima's preferences and requests, I had the opportunity to add lots of custom CSS to this website to achieve the desired layout and design.</p>
+
+        <h2 className='uisubtitle'>VISIT THE SITE</h2>
+        <p className='uiprojecttext'>Click below to visit Shima Javan Interior Design's website.</p>
+
+
+            <div className='uibutton'>
+                <Button text='VISIT WEBSITE' externallink={"https://www.shimajavan.com"} />
+            </div>
+        
+
+    </div>
+
+
+
 
 
 
