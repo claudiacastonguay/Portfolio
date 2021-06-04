@@ -50,75 +50,10 @@ export default function GraphicDesign(){
 
 
 
-    
-    {/* AUDIOFINA LOGOS */}
-
-    {/* DESKTOP */}
-
-    {process.browser && window.innerWidth >= 1512 ? <div id='graphicproject'>
-        <div className='subgraphicproject'>
-
-            <div className='graphicprojecttext'>
-
-                    <h1 className='graphictitle'>AUDIOFINA LOGO DESIGNS</h1>
-
-                    <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
-
-                    <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
-
-            </div>
-
-
-            <div id='audiofina'>
-                <img className='logos' src='/musiclogos.png'></img>
-            </div>
-
-        </div>
-
-    </div> :
-
-    //MOBILE 
-    
-    <div className='graphicproject'>
-        <div className='subgraphicproject'>
-
-
-    <div id='audiofina'>
-            <img className='logos' src='/musiclogos.png'></img>
-    </div>
-
-
-        <div className='graphicprojecttext'>
-
-                <h1 className='graphictitle'>AUDIOFINA LOGO DESIGNS</h1>
-
-                <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
-
-                <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
-
-        </div>
-
-    </div>
-
-</div>}
 
 
 
-
-
-
-<NextLink className='scroll' href="/graphic-design#vector">
-    <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
-        </div>
-</NextLink>
-
-
-
-
-
-
-
+        
         {/* REALISTIC VECTOR DRAWING */}
 
     
@@ -168,6 +103,7 @@ export default function GraphicDesign(){
     <div className='graphicproject'>
             <div className='subgraphicproject'>
 
+
         <div id='vector'>
                 <img className='gamecube' src='/realisticgamecube.png'></img>
             </div>
@@ -175,7 +111,7 @@ export default function GraphicDesign(){
 
             <div className='leftmargin'>
 
-                    <h1>REALISTIC VECTOR DRAWING</h1>
+                    <h1 className='graphictitle'>REALISTIC VECTOR DRAWING</h1>
 
                     <p className='graphictext'>For this project, I was assigned to create a vector drawing in Adobe Illustrator as realistic as possible to a reference image of my choice.</p>
 
@@ -277,6 +213,157 @@ export default function GraphicDesign(){
         </div>
 
     </div>}
+
+
+
+
+
+
+
+    <NextLink className='scroll' href="/graphic-design#albumcover">
+    <div className='downarrowcont'>
+                    <img className='downarrow' src='/downarrow.svg'></img>
+        </div>
+    </NextLink>
+
+
+
+
+
+
+
+
+
+    {/* MOTION GRAPHICS VIDEO */}
+
+
+
+    {process.browser && window.innerWidth >= 680 ? <div className='graphicproject'>
+        <div id='promoanimation'>
+
+            <div className='videotext'>
+
+                    <h1 id='animatetitle'>MOTION GRAPHICS VIDEO</h1>
+                   
+
+                    <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
+
+                    <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
+
+            </div>
+
+
+            <div id='painting'>
+
+            <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        
+            </div>
+
+        </div>
+
+    </div> :
+
+    //MOBILE
+
+<div className='graphicproject'>
+    <div id='promoanimation'>
+
+    <div className='videotext'>
+
+            <h1 id='animatetitle'>MOTION GRAPHICS VIDEO</h1>
+
+            <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
+
+            <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
+
+    </div>
+
+
+    <div id='painting'>
+
+        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        
+    </div>
+
+</div>
+
+</div>}
+
+
+
+
+
+
+
+
+
+
+    <NextLink className='scroll' href="/graphic-design#albumcover">
+    <div className='downarrowcont'>
+                <img className='downarrow' src='/downarrow.svg'></img>
+        </div>
+    </NextLink>
+
+
+
+
+
+
+    
+    {/* AUDIOFINA LOGOS */}
+
+    {/* DESKTOP */}
+
+    {process.browser && window.innerWidth >= 1512 ? <div className='graphicproject'>
+        <div className='subgraphicproject'>
+
+            <div className='graphicprojecttext'>
+
+                    <h1 className='graphictitle'>AUDIOFINA LOGO DESIGNS</h1>
+
+                    <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
+
+                    <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
+
+            </div>
+
+
+            <div id='audiofina'>
+                <img className='logos' src='/musiclogos.png'></img>
+            </div>
+
+        </div>
+
+    </div> :
+
+    //MOBILE 
+    
+    <div className='graphicproject'>
+        <div className='subgraphicproject'>
+
+
+    <div id='audiofina'>
+            <img className='logos' src='/musiclogos.png'></img>
+    </div>
+
+
+        <div className='graphicprojecttext'>
+
+                <h1 className='graphictitle'>AUDIOFINA LOGO DESIGNS</h1>
+
+                <p className='graphictext'>This project required me to create five different logos for any type of non-existing company. Audiofina is a mock music brand that offers online music sharing.</p>
+
+                <p className='graphictext'>The left column shows all five logos in only black and white. The middle column shows the colorized logos with only solid colors. The right column also shows the colorized logos but with the use of gradients and various effects.</p>
+
+        </div>
+
+    </div>
+
+</div>}
+
+
+
+
 
 
 
@@ -387,8 +474,7 @@ export default function GraphicDesign(){
 
 
 
-
-    {/* MOTION GRAPHICS VIDEO */}
+{/* SHIMA JAVAN DESIGN ANIMATION */}
 
     {/* DESKTOP */}
 
@@ -398,79 +484,10 @@ export default function GraphicDesign(){
 
             <div className='videotext'>
 
-                    <h1 className='graphictitle'>MOTION GRAPHICS VIDEO</h1>
+                    <h1 className='graphictitle'>SHIMA JAVAN INTERIOR DESIGN</h1>
+                    <h3 id='animatesubtitle'>PROMOTIONAL ANIMATION</h3>
 
-                    <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
-
-                    <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
-
-            </div>
-
-
-            <div id='painting'>
-                <iframe className='animation' width="560" height="515" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                
-            </div>
-
-        </div>
-
-    </div> :
-
-    //MOBILE
-
-<div className='graphicproject'>
-    <div id='motiongraphicproject'>
-
-    <div className='videotext'>
-
-            <h1 className='graphictitle'>MOTION GRAPHICS VIDEO</h1>
-
-            <p className='graphictext'>This project required me to animate a thirty-second video in Adobe After Effects. All assets and images were to be created by myself and animated along with an audio clip of my choice.</p>
-
-            <p className='graphictext'>I created a short motion graphic video using vector drawings I made in Adobe Illustrator. I chose this animation to be about some things I like. The music used is an instrumental version of a song titled "The Mother We Share" by CHVRCHES.</p>
-
-    </div>
-
-
-    <div id='painting'>
-
-        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/OSVp9-YLh7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        
-    </div>
-
-</div>
-
-</div>}
-
-
-
-
-
-<NextLink className='scroll' href="/graphic-design#promoanimation">
-    <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
-        </div>
-    </NextLink>
-
-
-
-
-
-
-{/* SHIMA JAVAN DESIGN ANIMATION */}
-
-    {/* DESKTOP */}
-
-
-    {process.browser && window.innerWidth >= 680 ? <div className='graphicproject'>
-        <div id='promoanimation'>
-
-            <div className='videotext'>
-
-                    <h1 id='animatetitle'>PROMOTIONAL ANIMATION</h1>
-                    <h3 id='animatesubtitle'>Shima Javan Interior Design</h3>
-
-                    <p className='graphictext'>During my last two months at BCIT, I worked for Shima Javan Interior Design for my practicum. This is a start-up interior design business that required a short animation to help promote its website and social media accounts.</p>
+                    <p className='graphictext'>I worked for a start-up interior design business named Shima Javan Interior Design. This business required a short animation to help promote its website and social media accounts.</p>
 
                     <p className='graphictext'>I created the first half of this animation as well as the outro of the video; my co-worker completed the second half. This was animated using Adobe After Effects.</p>
 
@@ -489,14 +506,14 @@ export default function GraphicDesign(){
     //MOBILE
 
 <div className='graphicproject'>
-    <div id='promoanimation'>
+    <div id='motiongraphicproject'>
 
     <div className='videotext'>
 
-            <h1 id='animatetitle'>PROMOTIONAL ANIMATION</h1>
-            <h3 id='animatesubtitle'>Shima Javan Interior Design</h3>
+                    <h1 className='graphictitle'>SHIMA JAVAN INTERIOR DESIGN</h1>
+                    <h3 id='animatesubtitle'>PROMOTIONAL ANIMATION</h3>
 
-            <p className='graphictext'>During my last two months at BCIT, I worked for Shima Javan Interior Design for my practicum. This is a start-up interior design business that required a short animation to help promote its website and social media accounts.</p>
+            <p className='graphictext'>I worked for a start-up interior design business named Shima Javan Interior Design. This business required a short animation to help promote its website and social media accounts.</p>
 
             <p className='graphictext'>I created the first half of this animation as well as the outro of the video; my co-worker completed the second half. This was animated using Adobe After Effects.</p>
 
@@ -504,14 +521,14 @@ export default function GraphicDesign(){
 
 
     <div id='painting'>
-
-        <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/eJdJT5Fq2ys" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        
-    </div>
+                <iframe className='animation' width="560" height="250" src="https://www.youtube.com/embed/eJdJT5Fq2ys" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                
+            </div>
 
 </div>
 
 </div>}
+
 
 
 

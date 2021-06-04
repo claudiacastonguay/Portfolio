@@ -99,6 +99,7 @@ export default function UIUXDesign () {
         </div>
 
     <div className='uiprojectinfo'>
+        <div className='subprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
         <p className='uiprojecttext'>Earth Hero is a mobile educational web application that teaches users about climate change issues around the world. It allows you to select a topic to learn about and quizzes you afterwards on the information you've read. This app is aimed at a young target audience, specifically kids around 10-17 years of age. The language used in the app is simple for the users to understand. Earth Hero's UI is laid out in a clean and intuitive manner giving users an effortless learning experience.</p>
@@ -115,6 +116,7 @@ export default function UIUXDesign () {
             <Button text='TRY EARTH HERO' externallink={"http://earth-hero.herokuapp.com/Home-page"}/>
         </div>
 
+        </div>
     </div>
 
 
@@ -175,6 +177,7 @@ export default function UIUXDesign () {
 
 
     <div className='uiprojectinfo'>
+        <div className='subprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
         <p className='uiprojecttext'>Most of us have visited <a target='_blank' href='https://craigslist.org'>Craigslist.com</a>, whether it be to buy something cheap, check out discussion forums, or sell something for a bit of extra cash. However, you may have noticed that Craigslist's website looks a little bit... messy? Cluttered and archaic too? As a UI/UX designer student, I was assigned to give Craigslist a whole new look. The project required that we completely redesign Craigslist and give it an entirely new user interface and a much better user experience.</p>
@@ -198,7 +201,12 @@ export default function UIUXDesign () {
             </div>
         </div>
 
+        </div>
+
     </div>
+
+
+
 
 
 
@@ -208,6 +216,9 @@ export default function UIUXDesign () {
             <img className='downarrow' src='/downarrow.svg'></img>
         </div>
     </NextLink>
+
+
+
 
 
 
@@ -262,13 +273,13 @@ export default function UIUXDesign () {
 
 
     <div className='uiprojectinfo'>
+        <div className='subprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
-        <p className='uiprojecttext'>Shima Javan Interior Design is a start-up interior design business. Since this business is new, it previously did not have an existing website and lacked many marketing and promotional strategies.</p>
-        <p className='uiprojecttext'>During the last couple of months of my program at BCIT, I worked with the owner, Shima Javan, for my practicum. Part of my job while working for this business was to design and develop its website.</p>
+        <p className='uiprojecttext'>Shima Javan Interior Design is a start-up interior design business. Since this business is new, it previously did not have an existing website and lacked many marketing and promotional strategies. Part of my job while working for this business was to design and develop its website.</p>
 
         <h2 className='uisubtitle'>ROLES</h2>
-        <p className='uiprojecttext'>This project was completed by a team of two members, including myself. The design work was evenly split between me and my co-worker. I was responsible for developing 90% of the website. This website was developed using <a target="_blank" href='https://squarespace.com'>Squarespace</a>. Due to Shima's preferences and requests, I had the opportunity to add lots of custom CSS to this website to achieve the desired layout and design.</p>
+        <p className='uiprojecttext'>I designed this site alongside my co-worker and I was responsible for developing 90% of the website. This website was developed using <a target="_blank" href='https://squarespace.com'>Squarespace</a>. Due to Shima's preferences and requests, I had the opportunity to add lots of custom CSS to this website to achieve the desired layout and design.</p>
 
         <h2 className='uisubtitle'>VISIT THE SITE</h2>
         <p className='uiprojecttext'>Click below to visit Shima Javan Interior Design's website.</p>
@@ -278,7 +289,7 @@ export default function UIUXDesign () {
                 <Button text='VISIT WEBSITE' externallink={"https://www.shimajavan.com"} />
             </div>
         
-
+        </div>
     </div>
 
 
@@ -346,6 +357,7 @@ export default function UIUXDesign () {
 
 
     <div className='uiprojectinfo'>
+        <div className='subprojectinfo'>
 
         <h2 className='overview'>OVERVIEW</h2>
         <p className='uiprojecttext'>Dairy Delight is a faux small ice cream business that sells ice cream, milkshakes, and cakes made with natural ingredients. They also offer an online delivery service providing tubs of ice cream on their website.</p>
@@ -362,7 +374,7 @@ export default function UIUXDesign () {
                 <Button text='SEE PROTOTYPE' externallink={"https://xd.adobe.com/view/e920124e-9f4e-4bfa-ae13-5ab5774b44b8-bc73/?fullscreen"} />
             </div>
         
-
+        </div>
     </div>
 
 
