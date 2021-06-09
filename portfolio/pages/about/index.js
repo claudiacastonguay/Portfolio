@@ -28,7 +28,7 @@ export default function About (){
 
                         <div className='aboutbuttons'>
                             <div className='resumemargin'>
-                                <Button text={"RESUME"} externallink={"https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing"}/>
+                                <Button text={"RESUME"} externallink={"https://drive.google.com/file/d/1H5SISmF8SJIdI8Uog-tdFe0KdvXDJOD_/view?usp=sharing"}/>
                             </div>
                                 <Button text={"LINKEDIN"} externallink={"https://www.linkedin.com/in/claudiacastonguay/"}/>
                         </div>

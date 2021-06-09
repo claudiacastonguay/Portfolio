@@ -145,7 +145,7 @@ const Footer = () => {
         </Contacts>
 
         <Socials>
-            <SocialLink target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink>
+            <SocialLink target='_blank' href={'https://drive.google.com/file/d/1H5SISmF8SJIdI8Uog-tdFe0KdvXDJOD_/view?usp=sharing'}>RESUME</SocialLink>
             <SocialLink target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink>
             
             {/* ADD INSTAGRAM LATER */}
@@ -174,7 +174,7 @@ const Footer = () => {
         </Contacts>
 
         <Socials2>
-            <SocialLink2 target='_blank' href={'https://drive.google.com/file/d/16MF2KQmfGXc95W-q2_U5volZcxuLM0gT/view?usp=sharing'}>RESUME</SocialLink2>
+            <SocialLink2 target='_blank' href={'https://drive.google.com/file/d/1H5SISmF8SJIdI8Uog-tdFe0KdvXDJOD_/view?usp=sharing'}>RESUME</SocialLink2>
             <SocialLink2 target="_blank" href={'https://www.linkedin.com/in/claudiacastonguay/'}>LINKEDIN</SocialLink2>
             
             {/* ADD INSTAGRAM LATER */}
