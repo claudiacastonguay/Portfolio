@@ -41,7 +41,7 @@ export default function GraphicDesign(){
                 <h5 className='uiuxsubtitle'>Here are some of my best graphic design creations using Adobe Photoshop and Illustrator.</h5>
             </div>
             
-            <NextLink className='scroll' href="/graphic-design#audiofina">
+            <NextLink className='scroll' href="/graphic-design#vector">
                 <div className='downarrowcont2'>
                     <img className='downarrow' src='/whitedownarrow.svg'></img>
                 </div>
@@ -220,7 +220,7 @@ export default function GraphicDesign(){
 
 
 
-    <NextLink className='scroll' href="/graphic-design#albumcover">
+    <NextLink className='scroll' href="/graphic-design#promoanimation">
     <div className='downarrowcont'>
                     <img className='downarrow' src='/downarrow.svg'></img>
         </div>
@@ -298,7 +298,7 @@ export default function GraphicDesign(){
 
 
 
-    <NextLink className='scroll' href="/graphic-design#albumcover">
+    <NextLink className='scroll' href="/graphic-design#audiofina">
     <div className='downarrowcont'>
                 <img className='downarrow' src='/downarrow.svg'></img>
         </div>
