@@ -45,6 +45,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+
+          {/* Google Verification */}
+
+            <meta name="google-site-verification" content="nig_fPGnY-4TgjNKm7qeNndHHb8ddpfTKF5xKQURJpw" />
+
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
