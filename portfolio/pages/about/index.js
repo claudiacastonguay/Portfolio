@@ -13,6 +13,9 @@ export default function About (){
         <Head>
             <link rel="shortcut icon" href="/favicon2.svg" />
             <title>Claudia Castonguay - Digital Design</title>
+
+            <meta name="description" content="Hello! My name is Claudia Castonguay and I'm a very passionate digital designer. I love getting my hands on a computer and working with different softwares to create digital assets and layouts." />
+            <meta property="og:title" content="About Claudia Castonguay" />
         </Head>
 
 

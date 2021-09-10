@@ -28,6 +28,9 @@ export default function UIUXDesign () {
     <Head>
         <link rel="shortcut icon" href="/favicon2.svg" />
         <title>Claudia Castonguay - Digital Design</title>
+
+        <meta name="description" content="Below are my biggest web application projects that I've helped design and develop with different teams." />
+        <meta property="og:title" content="UI/UX Design Projects - Claudia Castonguay" />
     </Head>
 
 

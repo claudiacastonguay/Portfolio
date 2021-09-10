@@ -29,6 +29,9 @@ export default function GraphicDesign(){
     <Head>
         <link rel="shortcut icon" href="/favicon2.svg" />
         <title>Claudia Castonguay - Digital Design</title>
+
+        <meta name="description" content="Here are some of my best graphic design creations using Adobe Photoshop and Illustrator." />
+        <meta property="og:title" content="Graphic Design Projects - Claudia Castonguay" />
     </Head>
 
 

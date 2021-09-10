@@ -23,14 +23,17 @@ function RouteGraphic(){
 
 
 export default function Home () {
-    return <div>
+    return <main>
 
         <Header homecolor={"#15C4B6"} homefont="27pt"/>
 
 
         <Head>
             <link rel="shortcut icon" href="/favicon2.svg" />
-            <title>Claudia Castonguay - Digital Design</title>
+            <title>Claudia Castonguay - Digital Designer</title>
+            
+            <meta name="description" content="Claudia is an aspiring UI/UX and Graphic Designer from North Vancouver, BC." />
+            <meta property="og:title" content="Claudia Castonguay - Digital Designer" />
         </Head>
 
 
@@ -68,7 +71,7 @@ export default function Home () {
 
     <NextLink className='scroll' href="/#ui">
         <div className='downarrowconthome'>
-            <img className='downarrow' src='/downarrow.svg'></img>
+            <img className='downarrow' src='/downarrow.svg' alt="down arrow"></img>
         </div>
     </NextLink>
 
@@ -85,7 +88,7 @@ export default function Home () {
         
 
             <div id='ui'>
-                <img className='uihomeimg' src='/uiprojects.png'></img>
+                <img className='uihomeimg' src='/uiprojects.png' alt="UI Projects"></img>
             </div>
 
             <div className='graphichometext'>
@@ -112,7 +115,7 @@ export default function Home () {
         <div className='graphicdesignhome'>
         
         <div className='uihomeimgcont'>
-            <img className='uihomeimg' src='/graphicdesignprojects.png'></img>
+            <img className='uihomeimg' src='/graphicdesignprojects.png' alt="Graphic Design Projects"></img>
         </div>
 
         <div className='graphichometext'>
@@ -138,7 +141,7 @@ export default function Home () {
 </div>
 
 
-    </div>
+    </main>
 }
 
 
