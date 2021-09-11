@@ -22,7 +22,7 @@ function ToTop(){
 export default function GraphicDesign(){
 
 
-    return <div>
+    return <main>
         
     <Header graphiccolor="#15C4B6" graphicfont="27pt"/>
 
@@ -46,7 +46,7 @@ export default function GraphicDesign(){
             
             <NextLink className='scroll' href="/graphic-design#vector">
                 <div className='downarrowcont2'>
-                    <img className='downarrow' src='/whitedownarrow.svg'></img>
+                    <img className='downarrow' src='/whitedownarrow.svg' alt='scroll down arrow'></img>
                 </div>
             </NextLink>
         </div>
@@ -74,10 +74,10 @@ export default function GraphicDesign(){
                     dots={true}
                     >
 
-                    <img src='/realisticgamecube.png' />
-                    <img src='/originalvector.png' />
-                    <img src='/vector1.png' />
-                    <img src='/vector2.png' />
+                    <img src='/realisticgamecube.png' alt="Realistic Illustrator Vector Final Drawing (1/4)" />
+                    <img src='/originalvector.png'  alt="Original photo for vector drawing (2/4)"/>
+                    <img src='/vector1.png'  alt="Realistic Illustrator Vector Drawing - first stage (3/4)"/>
+                    <img src='/vector2.png'  alt="Realistic Illustrator Vector Drawing - second stage (4/4)" />
                 </Slider>
             </div>
 
@@ -108,7 +108,7 @@ export default function GraphicDesign(){
 
 
         <div id='vector'>
-                <img className='gamecube' src='/realisticgamecube.png'></img>
+                <img className='gamecube' src='/realisticgamecube.png' alt="Realistic Illustrator Vector Drawing"></img>
             </div>
 
 
@@ -138,7 +138,7 @@ export default function GraphicDesign(){
 
     <NextLink className='scroll' href="/graphic-design#painting">
             <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
+                    <img className='downarrow' src='/downarrow.svg' alt="scroll down arrow"></img>
             </div>
     </NextLink>
 
@@ -177,11 +177,11 @@ export default function GraphicDesign(){
                     dots={true}
                     >
 
-                    <img src='/realisticpainting.png' />
-                    <img src='/originalpainting.png' />
-                    <img src='/paintingv1.png' />
-                    <img src='/paintingv2.png' />
-                    <img src='/paintingv3.png' />
+                    <img src='/realisticpainting.png' alt="Realistic Photoshop Painting final (1/5)" />
+                    <img src='/originalpainting.png' alt="Original photo for digital painting (2/5)"/>
+                    <img src='/paintingv1.png' alt="Realistic Photoshop Painting - first stage (3/5)"/>
+                    <img src='/paintingv2.png' alt="Realistic Photoshop Painting - second stage (4/5)"/>
+                    <img src='/paintingv3.png' alt="Realistic Photoshop Painting - third stage (5/5)"/>
                     
                 </Slider>
             </div>
@@ -198,7 +198,7 @@ export default function GraphicDesign(){
 
 
         <div id='painting'>
-                <img className='logos' src='/realisticpainting.png'></img>
+                <img className='logos' src='/realisticpainting.png' alt="Realistic Photoshop Digital Painting"></img>
             </div>
 
 
@@ -225,7 +225,7 @@ export default function GraphicDesign(){
 
     <NextLink className='scroll' href="/graphic-design#promoanimation">
     <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
+                    <img className='downarrow' src='/downarrow.svg' alt="scroll down arrow"></img>
         </div>
     </NextLink>
 
@@ -303,7 +303,7 @@ export default function GraphicDesign(){
 
     <NextLink className='scroll' href="/graphic-design#audiofina">
     <div className='downarrowcont'>
-                <img className='downarrow' src='/downarrow.svg'></img>
+                <img className='downarrow' src='/downarrow.svg' alt="scroll down arrow"></img>
         </div>
     </NextLink>
 
@@ -332,7 +332,7 @@ export default function GraphicDesign(){
 
 
             <div id='audiofina'>
-                <img className='logos' src='/musiclogos.png'></img>
+                <img className='logos' src='/musiclogos.png' alt='Audiofina logo designs'></img>
             </div>
 
         </div>
@@ -346,7 +346,7 @@ export default function GraphicDesign(){
 
 
     <div id='audiofina'>
-            <img className='logos' src='/musiclogos.png'></img>
+            <img className='logos' src='/musiclogos.png' alt='Audiofina logo designs'></img>
     </div>
 
 
@@ -375,7 +375,7 @@ export default function GraphicDesign(){
 
     <NextLink className='scroll' href="/graphic-design#albumcover">
     <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
+                    <img className='downarrow' src='/downarrow.svg' alt="scroll down arrow"></img>
         </div>
     </NextLink>
 
@@ -401,12 +401,12 @@ export default function GraphicDesign(){
                     dots={true}
                     >
 
-                    <img src='/mockalbumcover.png' />
-                    <img src='/albumv1.png' />
-                    <img src='/albumv2.png' />
-                    <img src='/albumv3.png' />
-                    <img src='/albumv4.png' />
-                    <img src='/albumv5.png' />
+                    <img src='/mockalbumcover.png' alt="Mock Photoshop Album Cover final (1/6)" />
+                    <img src='/albumv1.png' alt="Original photo for mock album cover (2/6)"/>
+                    <img src='/albumv2.png' alt="Mock Photoshop Album Cover - first stage (3/6)"/>
+                    <img src='/albumv3.png' alt="Mock Photoshop Album Cover - second stage (4/6)"/>
+                    <img src='/albumv4.png' alt="Mock Photoshop Album Cover - third stage (5/6)"/>
+                    <img src='/albumv5.png' alt="Mock Photoshop Album Cover - fourth stage (6/6)"/>
                 </Slider>
             </div>
 
@@ -439,7 +439,7 @@ export default function GraphicDesign(){
 
 
         <div id='albumcover'>
-                <img className='logos' src='/mockalbumcover.png'></img>
+                <img className='logos' src='/mockalbumcover.png' alt="Mock Photoshop Album Cover"></img>
             </div>
 
 
@@ -469,7 +469,7 @@ export default function GraphicDesign(){
 
     <NextLink className='scroll' href="/graphic-design#motiongraphicproject">
     <div className='downarrowcont'>
-                    <img className='downarrow' src='/downarrow.svg'></img>
+                    <img className='downarrow' src='/downarrow.svg' alt="scroll down arrow"></img>
         </div>
     </NextLink>
 
@@ -540,7 +540,7 @@ export default function GraphicDesign(){
 
     <div className='margintop'>
         <div className='backtotop'>
-            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' />
+            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' alt="Back to Top Arrow" />
             <h4 className='totoptext'>Back to Top</h4>
         </div>
     </div>
@@ -552,6 +552,6 @@ export default function GraphicDesign(){
 
 
 
-    </div>
+    </main>
 
 }

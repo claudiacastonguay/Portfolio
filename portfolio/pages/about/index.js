@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 
 export default function About (){
-    return <div>
+    return <main>
 
         <Header aboutcolor={"#15C4B6"} aboutfont="27pt" />
 
@@ -14,7 +14,7 @@ export default function About (){
             <link rel="shortcut icon" href="/favicon2.svg" />
             <title>Claudia Castonguay - Digital Design</title>
 
-            <meta name="description" content="Hello! My name is Claudia Castonguay and I'm a very passionate digital designer. I love getting my hands on a computer and working with different softwares to create digital assets and layouts." />
+            <meta name="description" content="Claudia is an aspiring Junior Digital Designer who recently graudated from British Columbia Institute of Technology (BCIT). She has experience designing and developing simple responsive websites and designing digital assets for marketing, advertising, and branding purposes." />
             <meta property="og:title" content="About Claudia Castonguay" />
         </Head>
 
@@ -39,7 +39,7 @@ export default function About (){
                 </div>
 
                 <div className='aboutimg'>
-                    <img className='me' src='/aboutpage.png' />
+                    <img className='me' src='/aboutpage.png' alt='Portrait photo of Claudia Castonguay' />
                 </div>
 
 
@@ -54,5 +54,5 @@ export default function About (){
 
 
 
-    </div>
+    </main>
 }

@@ -47,7 +47,7 @@ export default function UIUXDesign () {
 
             <NextLink className='scroll' href="/ui-ux-design#earthherotitle">
                 <div className='downarrowcont2'>
-                    <img className='downarrow' src='/whitedownarrow.svg'></img>
+                    <img className='downarrow' src='/whitedownarrow.svg' alt='scroll down arrow'></img>
                 </div>
             </NextLink>
         </div>
@@ -72,9 +72,9 @@ export default function UIUXDesign () {
                     dots={true}
                     >
 
-                    <img src='/earthherogallery.png' />
-                    <img src='/earthherogallery2.png' />
-                    <img src='/earthherogallery3.png' />
+                    <img src='/earthherogallery.png' alt='Earth Hero mobile application (1/3)' />
+                    <img src='/earthherogallery2.png' alt='Earth Hero mobile application (2/3)'/>
+                    <img src='/earthherogallery3.png' alt="Earth Hero mobile application (3/3)"/>
                 </Slider>
             </div>
         </div>
@@ -126,7 +126,7 @@ export default function UIUXDesign () {
 
     <NextLink className='scroll' href="/ui-ux-design#craigslisttitle">
         <div className='downarrowcont'>
-            <img className='downarrow' src='/downarrow.svg'></img>
+            <img className='downarrow' src='/downarrow.svg' alt='scroll down arrow'></img>
         </div>
     </NextLink>
 
@@ -150,10 +150,10 @@ export default function UIUXDesign () {
                     dots={true}
                     >
 
-                    <img src='/craigslistgallery.png' />
-                    <img src='/craigslistgallery2.png' />
-                    <img src='/craigslistgallery3.png' />
-                    <img src='/craigslistgallery4.png' />
+                    <img src='/craigslistgallery.png' alt="Craigslist Redesign (1/4)" />
+                    <img src='/craigslistgallery2.png' alt="Craigslist Redesign (2/4)"/>
+                    <img src='/craigslistgallery3.png' alt="Craigslist Redesign (3/4)"/>
+                    <img src='/craigslistgallery4.png' alt="Craigslist Redesign (4/4)"/>
                 </Slider>
             </div>
         </div>
@@ -216,7 +216,7 @@ export default function UIUXDesign () {
 
     <NextLink className='scroll' href="/ui-ux-design#sjtitle">
         <div className='downarrowcont'>
-            <img className='downarrow' src='/downarrow.svg'></img>
+            <img className='downarrow' src='/downarrow.svg' alt='scroll down arrow'></img>
         </div>
     </NextLink>
 
@@ -245,9 +245,9 @@ export default function UIUXDesign () {
                     dots={true}
                     >
 
-                    <img src='/sjgallery1.png' />
-                    <img src='/sjgallery2.png' />
-                    <img src='/sjgallery3.png' />
+                    <img src='/sjgallery1.png' alt="Shima Javan Interior Design website design (1/3)" />
+                    <img src='/sjgallery2.png' alt="Shima Javan Interior Design website design (2/3)"/>
+                    <img src='/sjgallery3.png' alt="Shima Javan Interior Design website design (3/3)"/>
                 </Slider>
             </div>
         </div>
@@ -303,7 +303,7 @@ export default function UIUXDesign () {
 
     <NextLink className='scroll' href="/ui-ux-design#ddtitle">
         <div className='downarrowcont'>
-            <img className='downarrow' src='/downarrow.svg'></img>
+            <img className='downarrow' src='/downarrow.svg' alt='scroll down arrow'></img>
         </div>
     </NextLink>
 
@@ -330,9 +330,9 @@ export default function UIUXDesign () {
                     dots={true}
                     >
 
-                    <img src='/ddgallery.png' />
-                    <img src='/ddgallery2.png' />
-                    <img src='/ddgallery3.png' />
+                    <img src='/ddgallery.png' alt="Dairy Delight website design (1/3)" />
+                    <img src='/ddgallery2.png' alt="Dairy Delight website design (2/3)" />
+                    <img src='/ddgallery3.png' alt="Dairy Delight website design (3/3)" />
                 </Slider>
             </div>
         </div>
@@ -383,7 +383,7 @@ export default function UIUXDesign () {
 
     <div className='margintop'>
         <div className='backtotopui'>
-            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' />
+            <img onClick={ToTop} className='totoparrow' src='/uparrow.svg' alt='Back to Top arrow'/>
             <h4 className='totoptext'>Back to Top</h4>
         </div>
     </div>
