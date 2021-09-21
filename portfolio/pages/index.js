@@ -32,7 +32,7 @@ export default function Home () {
             <link rel="shortcut icon" href="/favicon2.svg" />
             <title>Claudia Castonguay - Digital Designer</title>
             
-            {/* <meta name="description" content="Claudia is a passionate UI/UX and Graphic Designer based in North Vancouver, BC. This is her portfolio showcasing her best UI/UX designs for responsive web and mobile applications, graphic designs, and front-end development work." /> */}
+            <meta name="description" content="Claudia is a passionate UI/UX and Graphic Designer based in North Vancouver, BC. This is her portfolio showcasing her best UI/UX designs for responsive web and mobile applications, graphic designs, and front-end development work." />
             <meta property="og:title" content="Claudia Castonguay - Digital Designer" />
         </Head>
 
